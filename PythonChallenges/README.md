@@ -1,3 +1,7 @@
+# HackerRank Python Challenges
+[PlusMinus](#plusminus)
+
+## PlusMinus
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
 
 Note: This challenge introduces precision problems. The test cases are scaled to six decimal places, though answers with absolute error of up to  are acceptable.
@@ -48,3 +52,5 @@ STDIN           Function
 ### Explanation
 There are 3 positive numbers, 2 negative numbers, and 1 zero in the array.
 The proportions of occurrence are positive: 3/6 , negative: 2/6 and zeros: 1/6.
+
+------------------------------
