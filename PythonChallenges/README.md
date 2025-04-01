@@ -40,7 +40,6 @@ proportion of zeros
 
 ### Sample Input
 STDIN           Function
------           --------
 6               arr[] size n = 6
 -4 3 -9 0 4 1   arr = [-4, 3, -9, 0, 4, 1]
 
