@@ -14,7 +14,14 @@ import sys
 
 def miniMaxSum(arr):
     # Write your code here
-    print("worked")
+    arr.sort()
+    sum1=0
+    sum2=0
+    for i in range(0,4):
+        sum1 += arr[i]
+    for i in range(len(arr) -1, 0, -1):
+        sum2 += arr[i]
+    print(sum1, sum2)
 
 if __name__ == '__main__':
 
