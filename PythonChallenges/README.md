@@ -2,6 +2,7 @@
 [PlusMinus](#plusminus)\
 [Mini-Max Sum](#mini-max-sum)\
 [Time Conversion](#time-conversion)\
+[Breaking The Records](#breaking-the-records)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -153,3 +154,44 @@ All input times are valid
 ### Sample Output
 
 19:05:45
+
+------------------------------------------------------------
+
+## [Breaking The Records]()
+
+Maria plays college basketball and wants to go pro. Each season she maintains a record of her play. She tabulates the number of times she breaks her season record for most points and least points in a game. Points scored in the first game establish her record for the season, and she begins counting from there.
+
+### Example
+
+Scores are in the same order as the games played. She tabulates her results as follows:
+
+                                     Count\
+    Game  Score  Minimum  Maximum   Min Max\
+     0      12     12       12       0   0\
+     1      24     12       24       0   1\
+     2      10     10       24       1   1\
+     3      24     10       24       1   1\
+Given the scores for a season, determine the number of times Maria breaks her records for most and least points scored during the season.
+
+### Function Description
+
+Complete the breakingRecords function in the editor below.
+
+breakingRecords has the following parameter(s):
+
+int scores[n]: points scored per game
+
+### Returns
+
+- int[2]: An array with the numbers of times she broke her records. Index  is for breaking most points records, and index  is for breaking least points records.
+
+### Input Format
+
+The first line contains an integer , the number of games.
+The second line contains  space-separated integers describing the respective values of 
+*score*<sub>0<.sub>, *score*<sub>1</sub>,....*score*<sub>n-1</sub>.
+
+### Constraints
+
+- 1 $\leq$ *n* $\leq$ 1000
+- 0 $\leq$ *scores[i]* $\leq$ 10<sup>8</sup>
