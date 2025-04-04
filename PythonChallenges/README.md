@@ -157,7 +157,7 @@ All input times are valid
 
 ------------------------------------------------------------
 
-## [Breaking The Records]()
+## [Breaking The Records](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0004-BreakingTheRecords.py)
 
 Maria plays college basketball and wants to go pro. Each season she maintains a record of her play. She tabulates the number of times she breaks her season record for most points and least points in a game. Points scored in the first game establish her record for the season, and she begins counting from there.
 
@@ -165,12 +165,12 @@ Maria plays college basketball and wants to go pro. Each season she maintains a 
 
 Scores are in the same order as the games played. She tabulates her results as follows:
 
-                                     Count\
-    Game  Score  Minimum  Maximum   Min Max\
-     0      12     12       12       0   0\
-     1      24     12       24       0   1\
-     2      10     10       24       1   1\
-     3      24     10       24       1   1\
+                                     Count
+    Game  Score  Minimum  Maximum   Min Max
+     0      12     12       12       0   0
+     1      24     12       24       0   1
+     2      10     10       24       1   1
+     3      24     10       24       1   1
 Given the scores for a season, determine the number of times Maria breaks her records for most and least points scored during the season.
 
 ### Function Description
@@ -179,7 +179,7 @@ Complete the breakingRecords function in the editor below.
 
 breakingRecords has the following parameter(s):
 
-int scores[n]: points scored per game
+- int scores[n]: points scored per game
 
 ### Returns
 
@@ -187,9 +187,9 @@ int scores[n]: points scored per game
 
 ### Input Format
 
-The first line contains an integer , the number of games.
+The first line contains an integer *n*, the number of games.
 The second line contains  space-separated integers describing the respective values of 
-*score*<sub>0<.sub>, *score*<sub>1</sub>,....*score*<sub>n-1</sub>.
+*score*<sub>0</sub>, *score*<sub>1</sub>,....*score*<sub>n-1</sub>.
 
 ### Constraints
 
