@@ -3,7 +3,7 @@
 [Mini-Max Sum](#mini-max-sum)\
 [Time Conversion](#time-conversion)\
 [Breaking The Records](#breaking-the-records)\
-[Divisible SUm Pairs](#divisible-sum-pairs)
+[Divisible Sum Pairs](#divisible-sum-pairs)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -201,12 +201,12 @@ The second line contains  space-separated integers describing the respective val
 
 ## [Divisible Sum Pairs]()
 
-Given an array of integers and a positive integer , determine the number of  pairs where  and  +  is divisible by .
+Given an array of integers and a positive integer *k*, determine the number of *(i,j)* pairs where *i < j* and *ar[i] + ar[j]* +  is divisible by *k*.
 
 ### Example
 
-*ar*=[1,2,3,4,5,6]\
-*k*=5
+*ar* = [1,2,3,4,5,6]\
+*k* = 5
 
 Three pairs meet the criteria:  [1,4], [2,3], and [4,6].
 
@@ -237,13 +237,14 @@ The second line contains **n** space-separated integers, each a value of *arr[i]
 
 ### Sample Input
 
-STDIN           Function
-|-----           --------
-|6 3             n = 6, k = 3
-|1 3 2 6 1 2     ar = [1, 3, 2, 6, 1, 2]
-Sample Output
+    STDIN           Function
+    -----           --------
+    6 3             n = 6, k = 3
+    1 3 2 6 1 2     ar = [1, 3, 2, 6, 1, 2]
+    Sample Output
 
- 5
+   5
+
 ### Explanation
 
 Here are the 5 valid pairs when *k* = **3**:
