@@ -199,7 +199,7 @@ The second line contains  space-separated integers describing the respective val
 
 <!-- ------------------------------------------------------------ -->
 
-## [Divisible Sum Pairs]()
+## [Divisible Sum Pairs](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0005-DivisibleSumPairs.py)
 
 Given an array of integers and a positive integer *k*, determine the number of *(i,j)* pairs where *i < j* and *ar[i] + ar[j]* +  is divisible by *k*.
 
