@@ -2,7 +2,8 @@
 [PlusMinus](#plusminus)\
 [Mini-Max Sum](#mini-max-sum)\
 [Time Conversion](#time-conversion)\
-[Breaking The Records](#breaking-the-records)
+[Breaking The Records](#breaking-the-records)\
+[Divisible SUm Pairs](#divisible-sum-pairs)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -54,7 +55,7 @@ arr = [-4, 3, -9, 0, 4, 1]
 There are 3 positive numbers, 2 negative numbers, and 1 zero in the array.\
 The proportions of occurrence are positive: 3/6 , negative: 2/6 and zeros: 1/6.
 
-------------------------------------------------------------
+<!-- ------------------------------------------------------------ -->
 
 ## [Mini-Max Sum](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0002-MiniMaxSum.py)
 
@@ -108,7 +109,7 @@ Sum everything except 3, the sum is 1 + 2 + 4 + 5 = 12.\
 Sum everything except 4, the sum is 1 + 2 + 3 + 5 = 11.\
 Sum everything except 5, the sum is 1 + 2 + 3 + 4 = 10.
 
-------------------------------------------------------------
+<!-- ------------------------------------------------------------ -->
 
 ## [Time Conversion](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0003-TimeConversion.py)
 
@@ -155,7 +156,7 @@ All input times are valid
 
 19:05:45
 
-------------------------------------------------------------
+<!-- ------------------------------------------------------------ -->
 
 ## [Breaking The Records](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0004-BreakingTheRecords.py)
 
@@ -195,3 +196,59 @@ The second line contains  space-separated integers describing the respective val
 
 - 1 $\leq$ *n* $\leq$ 1000
 - 0 $\leq$ *scores[i]* $\leq$ 10<sup>8</sup>
+
+<!-- ------------------------------------------------------------ -->
+
+## [Divisible Sum Pairs]()
+
+Given an array of integers and a positive integer , determine the number of  pairs where  and  +  is divisible by .
+
+### Example
+
+*ar*=[1,2,3,4,5,6]\
+*k*=5
+
+Three pairs meet the criteria:  [1,4], [2,3], and [4,6].
+
+### Function Description
+
+Complete the divisibleSumPairs function in the editor below.
+
+divisibleSumPairs has the following parameter(s):
+
+- int n: the length of array 
+- int ar[n]: an array of integers
+- int k: the integer divisor
+
+### Returns
+
+- int: the number of pairs
+
+### Input Format
+
+The first line contains **2** space-separated integers, *n* and *k*.\
+The second line contains **n** space-separated integers, each a value of *arr[i]*.
+
+### Constraints
+
+- 2 $\leq$ n $\leq$ 100
+- 1 $\leq$ k $\leq$ 100
+- 1 $\leq$ arr[i] $\leq$ 100
+
+### Sample Input
+
+STDIN           Function
+|-----           --------
+|6 3             n = 6, k = 3
+|1 3 2 6 1 2     ar = [1, 3, 2, 6, 1, 2]
+Sample Output
+
+ 5
+### Explanation
+
+Here are the 5 valid pairs when *k* = **3**:
+- (0,2) -> arr[0] + arr[2] = 1 + 3 = 3
+- (0,5) -> arr[0] + arr[5] = 1 + 2 = 3
+- (1,3) -> arr[1] + arr[3] = 3 + 6 = 9
+- (2,4) -> arr[2] + arr[4] = 2 + 1 = 3
+- (4,5) -> arr[4] + arr[5] = 1 + 2 = 3
