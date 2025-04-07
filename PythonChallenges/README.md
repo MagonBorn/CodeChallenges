@@ -257,7 +257,7 @@ Here are the 5 valid pairs when *k* = **3**:
 
 <!-- ------------------------------------------------------------ -->
 
-## [Sparse Arrays]()
+## [Sparse Arrays](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0006-SparseArrays.py)
 
 There is a collection of input strings and a collection of query strings. For each query string, determine how many times it occurs in the list of input strings. Return an array of the results.
 
@@ -314,7 +314,7 @@ Each of the next **q** lines contains a string ***queries***[**i**].
     1
     0
 
-Sample Input 2
+### Sample Input 2
 
     3
     def
