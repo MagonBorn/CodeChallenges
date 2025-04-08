@@ -4,7 +4,8 @@
 [Time Conversion](#time-conversion)\
 [Breaking The Records](#breaking-the-records)\
 [Divisible Sum Pairs](#divisible-sum-pairs)\
-[Lonely Integer](#lonely-integer)
+[Lonely Integer](#lonely-integer)\
+[Grading Students](#grading-students)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -400,7 +401,7 @@ The second line contains **n** space-separated integers that describe the values
 
 <!-- ------------------------------------------------------------ -->
 
-## [Grading Students]()
+## [Grading Students](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0008-GradingStudents.py)
 
 HackerLand University has the following grading policy:
 
