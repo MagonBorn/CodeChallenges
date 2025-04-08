@@ -396,4 +396,4 @@ The second line contains **n** space-separated integers that describe the values
 
 - **1** $\leq$ **n** $\leq$ **100**
 - It is guaranteed that **n** is an odd number and that there is one unique element.
-- **0** $\leq$ **a[i]** $\leq$ **100**, where **0** $\leq$ **i** $\l$ **n**.
+- **0** $\leq$ **a[i]** $\leq$ **100**, where **0** $\leq$ **i** $\lt$ **n**.
