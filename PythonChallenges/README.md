@@ -3,7 +3,8 @@
 [Mini-Max Sum](#mini-max-sum)\
 [Time Conversion](#time-conversion)\
 [Breaking The Records](#breaking-the-records)\
-[Divisible Sum Pairs](#divisible-sum-pairs)
+[Divisible Sum Pairs](#divisible-sum-pairs)\
+[Lonely Integer](#lonely-integer)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -364,7 +365,7 @@ Each of the next **q** lines contains a string ***queries***[**i**].
 
 <!-- ------------------------------------------------------------ -->
 
-## [Lonely Integer]()
+## [Lonely Integer](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0007-LonelyInteger.py)
 
 Given an array of integers, where all elements but one occur twice, find the unique element.
 
