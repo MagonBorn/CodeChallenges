@@ -5,7 +5,8 @@
 [Breaking The Records](#breaking-the-records)\
 [Divisible Sum Pairs](#divisible-sum-pairs)\
 [Lonely Integer](#lonely-integer)\
-[Grading Students](#grading-students)
+[Grading Students](#grading-students)\
+[Flipping Bits](#flipping-bits)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -444,7 +445,7 @@ Each line *i* of the **n** subsequent lines contains a single integer, ***grades
 
 <!-- ------------------------------------------------------------ -->
 
-## [Flipping Bits]()
+## [Flipping Bits](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0009-FlippingBits.py)
 
 You will be given a list of 32 bit unsigned integers. Flip all the bits ( **1** -> **0** and **0** -> **1**) and return the result as an unsigned integer.
 
@@ -456,7 +457,7 @@ You will be given a list of 32 bit unsigned integers. Flip all the bits ( **1** 
 
 **00000000000000000000000000001001<sub>2</sub>** = **9<sub>10</sub>**
 
-**11111111111111111111111111110110<sub>2</sub>"" = **4294967286<sub>10</sub>**
+**11111111111111111111111111110110<sub>2</sub>** = **4294967286<sub>10</sub>**
 
 Return **4294967286**
 
