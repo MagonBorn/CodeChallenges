@@ -8,6 +8,7 @@
 [Grading Students](#grading-students)\
 [Flipping Bits](#flipping-bits)\
 [Diagonal Difference](#diagonal-difference)
+[Counting Sort 1]()
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -575,7 +576,7 @@ Note: |x| is the absolute value of x
 
 <!-- ------------------------------------------------------------ -->
 
-## [Counting Sort 1]()
+## [Counting Sort 1](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0011-CountingSort1.py)
 
 ### Comparison Sorting
 
@@ -598,7 +599,7 @@ All of the values are in the range **[0...3]**, so create an array of zeros, **r
     3	2	[0, 2, 1, 1]
     4	1	[0, 3, 1, 1]
 
-The frequency array is **[0, 3, 1 1]**. These values can be used to create the sorted array as well: ***sorted** **= [1, 1, 1, 2, 3]**.
+The frequency array is **[0, 3, 1 1]**. These values can be used to create the sorted array as well: ***sorted*** **= [1, 1, 1, 2, 3]**.
 
 ### Note
 
@@ -627,7 +628,7 @@ Each of the next ***n*** lines contains an integer ***arr[i]*** where **0** $\le
 
 ### Constraints
 
-**100** $\leq$ ***n*** $\leq$ **10<sup>6</sup>***
+**100** $\leq$ ***n*** $\leq$ **10<sup>6</sup>**
 
 **0** $\leq$ ***arr[i]*** $\le$ **100**
 
