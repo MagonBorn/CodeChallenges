@@ -7,8 +7,8 @@
 [Lonely Integer](#lonely-integer)\
 [Grading Students](#grading-students)\
 [Flipping Bits](#flipping-bits)\
-[Diagonal Difference](#diagonal-difference)
-[Counting Sort 1]()
+[Diagonal Difference](#diagonal-difference)\
+[Counting Sort 1](#counting-sort-1)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
