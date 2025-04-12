@@ -9,7 +9,8 @@
 [Flipping Bits](#flipping-bits)\
 [Diagonal Difference](#diagonal-difference)\
 [Counting Sort 1](#counting-sort-1)\
-[Counting Valleys](#counting-valleys)
+[Counting Valleys](#counting-valleys)\
+[Pangrams](#pangrams)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -648,7 +649,7 @@ Each of the resulting values ***result[i]*** represents the number of times ***i
 
 <!-- ------------------------------------------------------------ -->
 
-## [Counting Valleys](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0011-COuntingValleys.py)
+## [Counting Valleys](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0012-CountingValleys.py)
 
 An avid hiker keeps meticulous records of their hikes. During the last hike that took exactly ***steps*** steps, for every step it was noted if it was an uphill, ***U***, or a downhill, ***D*** step. Hikes always start and end at sea level, and each step up or down represents a **1** unit change in altitude. We define the following terms:
 
@@ -711,7 +712,7 @@ The hiker enters and leaves one valley.
 
 <!-- ------------------------------------------------------------ -->
 
-## [Pangrams]()
+## [Pangrams](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0013-Pangrams.py)
 
 A pangram is a string that contains every letter of the alphabet. Given a sentence determine whether it is a pangram in the English alphabet. Ignore case. Return either pangram or not pangram as appropriate.
 
