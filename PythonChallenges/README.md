@@ -661,7 +661,7 @@ Given the sequence of up and down steps during a hike, find and print the number
 
 ### Example
 
- ***steps*** = ***8 path*** = ***[DDUUUUDD]
+ ***steps*** = ***8 path*** = ***[DDUUUUDD]***
 
 The hiker first enters a valley **2** units deep. Then they climb out and up onto a mountain **2** units high. Finally, the hiker returns to sea level and ends the hike.
 
@@ -742,30 +742,24 @@ A single line with string ***s***.
 
 **0** $\le$ **length of s** $\leq$ **10<sup>3</sup>**
 
-Each character of **s, s[i]**, $\eplison$ **{a - z, A - Z, spaCE}**, 
+Each character of **s, s[i]**, $\epsilon$ **{a - z, A - Z, spaCE}**, 
 
 ### Sample Input
 
-      Sample Input 0
+Sample Input 0
+    We promptly judged antique ivory buckles for the next prize
 
-      We promptly judged antique ivory buckles for the next prize
+Sample Output 0
+    pangram
 
-      Sample Output 0
+Sample Explanation 0
+    All of the letters of the alphabet are present in the string.
 
-      pangram
+Sample Input 1
+    We promptly judged antique ivory buckles for the prize
 
-      Sample Explanation 0
+Sample Output 1
+    not pangram
 
-      All of the letters of the alphabet are present in the string.
-
-      Sample Input 1
-
-      We promptly judged antique ivory buckles for the prize
-
-      Sample Output 1
-
-      not pangram
-
-      Sample Explanation 0
-
-      The string lacks an x.
+Sample Explanation 0
+    The string lacks an x.
