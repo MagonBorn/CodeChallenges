@@ -747,19 +747,25 @@ Each character of **s, s[i]**, $\epsilon$ **{a - z, A - Z, spaCE}**,
 ### Sample Input
 
 Sample Input 0
+
     We promptly judged antique ivory buckles for the next prize
 
 Sample Output 0
+
     pangram
 
 Sample Explanation 0
+
     All of the letters of the alphabet are present in the string.
 
 Sample Input 1
+
     We promptly judged antique ivory buckles for the prize
 
 Sample Output 1
+
     not pangram
 
 Sample Explanation 0
+
     The string lacks an x.
