@@ -10,7 +10,8 @@
 [Diagonal Difference](#diagonal-difference)\
 [Counting Sort 1](#counting-sort-1)\
 [Counting Valleys](#counting-valleys)\
-[Pangrams](#pangrams)
+[Pangrams](#pangrams)\
+[Mars Exploration](#mars-exploration)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -769,3 +770,61 @@ Sample Output 1
 Sample Explanation 0
 
     The string lacks an x.
+
+<!-- ------------------------------------------------------------ -->
+
+## [Mars Exploration](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0014-MarsExploration.py)
+
+A space explorer's ship crashed on Mars! They send a series of SOS messages to Earth for help.
+
+Letters in some of the SOS messages are altered by cosmic radiation during transmission. Given the signal received by Earth as a string, ***s***, determine how many letters of the SOS message have been changed by radiation.
+
+### Example
+
+***s*** = **'SOSTOT'**
+
+The original message was SOSSOS. Two of the message's characters were changed in transit.
+
+### Function Description
+
+Complete the marsExploration function in the editor below.
+
+marsExploration has the following parameter(s):
+
+- string s: the string as received on Earth
+
+### Returns
+
+- int: the number of letters changed during transmission
+
+### Input Format
+
+There is one line of input: a single string, .
+
+### Constraints
+
+- **1** $\leq$ length of ***s*** $\leq$ **99**
+
+- length of ***s*** modulo **3 = 0**
+
+- ***s*** will contain only uppercase English letters, ascii[A-Z].
+
+### Explanation
+
+**Sample 0**
+
+***S*** = SOSSPSSQSSOR, and signal length **|S|** = **12**. Sami sent **4** SOS messages (i.e.:**12/3** = **4**).
+
+Expected signal: **SOSSOSSOSSOS**\
+Recieved signal: **SOSSPSSQSSOR**
+
+We print the number of changed letters, which is **3**.
+
+**Sample 1**
+
+**S*** = **SOSSOT**, and signal length **|S|**. Sami sent **2** SOS messages (i.e.: **6/3 = 2**).
+
+Expected Signal: **SOSSOS**\
+Received Signal: **SOSSOT**
+
+We print the number of changed letters, which is **1**.
