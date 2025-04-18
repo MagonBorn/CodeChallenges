@@ -13,7 +13,8 @@
 [Pangrams](#pangrams)\
 [Mars Exploration](#mars-exploration)\
 [Permuting Two Arrays](#permuting-two-arrays)\
-[Subarray Division 2](#subarray-division)
+[Subarray Division 2](#subarray-division)\
+[XOR Strings 3](#xor-strings-3)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -958,3 +959,46 @@ The third line contains two space-separated integers, ***d*** and ***m***, Ron's
 - **1** $\leq$ ***s***[i] $\leq$ **5**, where (**0** $\leq$ ***i*** $\le$ ***n***)
 - **1** $\leq$ ***d*** $\leq$ **31**
 - **1** $\leq$ ***m*** $\leq$ **12**
+
+<!-- ------------------------------------------------------------ -->
+
+## [XOR Strings 3](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0017-XORStrings3.py)
+
+In this challenge, the task is to debug the existing code to successfully execute all provided test files.
+
+Given two strings consisting of digits 0 and 1 only, find the XOR of the two strings.
+
+To know more about XOR [Click Here](https://en.wikipedia.org/wiki/Exclusive_or)
+
+Debug the given function strings_xor to find the XOR of the two given strings appropriately.
+
+Note: You can modify at most three lines in the given code and you cannot add or remove lines to the code.
+
+To restore the original code, click on the icon to the right of the language selector.
+
+### Input Format
+
+The input consists of two lines. The first line of the input contains the first string, ***s***, and the second line contains the second string, ***t***.
+
+### Constraints
+
+- **1** $\leq$ |**s**| $\leq$ **10<sup>4</sup>**
+
+- |**s**|  = |**t**|
+
+### Output Format
+
+Print the string obtained by the XOR of the two input strings in a single line.
+
+### Sample Input
+
+    10101
+    00101
+
+### Sample Output
+
+    10000
+
+### Explanation
+
+The XOR of the two strings **10101** and **00101** is **1 $\theta$ 0, 0 $\theta$ 0, 1 $\theta$ 1, 0 $\theta$ 0, 1 $\theta$ 1 = 10000**
