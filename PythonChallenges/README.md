@@ -14,7 +14,8 @@
 [Mars Exploration](#mars-exploration)\
 [Permuting Two Arrays](#permuting-two-arrays)\
 [Subarray Division 2](#subarray-division)\
-[XOR Strings 3](#xor-strings-3)
+[XOR Strings 3](#xor-strings-3)\
+[Sales By Match](#sales-by-match)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -1002,3 +1003,52 @@ Print the string obtained by the XOR of the two input strings in a single line.
 ### Explanation
 
 The XOR of the two strings **10101** and **00101** is **1 $\theta$ 0, 0 $\theta$ 0, 1 $\theta$ 1, 0 $\theta$ 0, 1 $\theta$ 1 = 10000**
+
+<!-- ------------------------------------------------------------ -->
+
+## [Sales By Match](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0018-SalesByMatch.py)
+
+There is a large pile of socks that must be paired by color. Given an array of integers representing the color of each sock, determine how many pairs of socks with matching colors there are.
+
+### Example
+
+***N*** = **7**
+
+***ar*** = [**1, 2, 1, 2, 1, 3, 2**]
+
+There is one pair of color **1** and one of color **2**. There are three odd socks left, one of each color. The number of pairs is **2**.
+
+### Function Description
+
+Complete the sockMerchant function in the editor below.
+
+sockMerchant has the following parameter(s):
+
+- int n: the number of socks in the pile
+- int ar[n]: the colors of each sock
+
+### Returns
+
+- int: the number of pairs
+
+### Input Format
+
+The first line contains an integer ***n***, the number of socks represented in ***ar***.
+The second line contains ***n*** space-separated integers, ***ar[i]***, the colors of the socks in the pile.
+
+### Constraints
+
+- **1** $\leq$ ***n*** $\leq$ **100*
+
+- **1** $\leq$ ***arr[i]*** $\leq$ **100** where **0** $\leq$ ***i*** $\l$ ***n***
+
+### Sample Input
+
+    STDIN                       Function
+    -----                       --------
+    9                           n = 9
+    10 20 20 10 10 30 50 10 20  ar = [10, 20, 20, 10, 10, 30, 50, 10, 20]
+
+### Sample Output
+
+    3
