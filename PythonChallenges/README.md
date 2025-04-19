@@ -1040,7 +1040,7 @@ The second line contains ***n*** space-separated integers, ***ar[i]***, the colo
 
 - **1** $\leq$ ***n*** $\leq$ **100*
 
-- **1** $\leq$ ***arr[i]*** $\leq$ **100** where **0** $\leq$ ***i*** $\l$ ***n***
+- **1** $\leq$ ***arr[i]*** $\leq$ **100** where **0** $\leq$ ***i*** $\le$ ***n***
 
 ### Sample Input
 
