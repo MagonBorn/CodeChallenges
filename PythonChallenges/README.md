@@ -15,7 +15,8 @@
 [Permuting Two Arrays](#permuting-two-arrays)\
 [Subarray Division 2](#subarray-division)\
 [XOR Strings 3](#xor-strings-3)\
-[Sales By Match](#sales-by-match)
+[Sales By Match](#sales-by-match)\
+[Migratory Birds](#migratory-birds)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -1055,13 +1056,13 @@ The second line contains ***n*** space-separated integers, ***ar[i]***, the colo
 
 <!-- ------------------------------------------------------------ -->
 
-## [Migratory Birds]()
+## [Migratory Birds](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0019-MigratoryBirds.py)
 
 Given an array of bird sightings where every element represents a bird type id, determine the id of the most frequently sighted type. If more than 1 type has been spotted that maximum amount, return the smallest of their ids.
 
 ### Example
 
-***arr*** = **[1, 1, 2, 23]**
+***arr*** = **[1, 1, 2, 2, 3]**
 
 There are two each of types **1** and **2**, and one sighting of type **3**. Pick the lower of the two types seen twice: type **1**.
 
