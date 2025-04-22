@@ -16,7 +16,8 @@
 [Subarray Division 2](#subarray-division)\
 [XOR Strings 3](#xor-strings-3)\
 [Sales By Match](#sales-by-match)\
-[Migratory Birds](#migratory-birds)
+[Migratory Birds](#migratory-birds)\
+[Maximum Perimeter Triangle](#maximum-perimeter-triangle)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -1092,7 +1093,7 @@ The second line describes ***arr*** as ***n*** space-separated integers, each a 
 
 <!-- ------------------------------------------------------------ -->
 
-## [Maximum Perimeter Triangle]()
+## [Maximum Perimeter Triangle](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0020-MaximumPerimeterTriangle.py)
 
 Given an array of stick lengths, use **3** of them to construct a non-degenerate triangle with the maximum possible perimeter. Return an array of the lengths of its sides as  integers in non-decreasing order.
 
