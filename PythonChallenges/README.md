@@ -17,7 +17,8 @@
 [XOR Strings 3](#xor-strings-3)\
 [Sales By Match](#sales-by-match)\
 [Migratory Birds](#migratory-birds)\
-[Maximum Perimeter Triangle](#maximum-perimeter-triangle)
+[Maximum Perimeter Triangle](#maximum-perimeter-triangle)\
+[Zig Zag Sequence](#zig-zag-sequence)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -1149,7 +1150,7 @@ The triangle **(1, 2, 3)** is degenerate and thus can't be constructed, so we pr
 
 <!-- ------------------------------------------------------------ -->
 
-## [Zig Zag Sequence]()
+## [Zig Zag Sequence](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0021-ZigZagSequence.py)
 
 In this challenge, the task is to debug the existing code to successfully execute all provided test files.
 
@@ -1175,7 +1176,7 @@ The first line contains ***t*** the number of test cases. The first line of each
 
 **1** $\leq$ ***t*** $\leq$ **20**
 
-**1** $\leq$ ***n*** $\;eq$ 10000 (***n*** is always odd)
+**1** $\leq$ ***n*** $\leq$ 10000 (***n*** is always odd)
 
 **1** $\leq$ ***a<sub>i</sub>*** $\leq$ **10<sup>9</sup>**
 
