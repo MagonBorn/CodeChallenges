@@ -1230,7 +1230,7 @@ The second line contains an integer, ***p***, the page to turn to.
 
 <!-- ------------------------------------------------------------ -->
 
-## [Picking Numbers]()
+## [Picking Numbers](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0023-PickingNumbers.py)
 
 Given an array of integers, find the longest subarray where the absolute difference between any two elements is less than or equal to **1**.
 
