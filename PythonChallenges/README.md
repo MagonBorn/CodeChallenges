@@ -19,7 +19,8 @@
 [Migratory Birds](#migratory-birds)\
 [Maximum Perimeter Triangle](#maximum-perimeter-triangle)\
 [Zig Zag Sequence](#zig-zag-sequence)\
-[Drawing Book](#drawing-book)
+[Drawing Book](#drawing-book)\
+[Picking Numbers](#picking-numbers)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -1226,3 +1227,41 @@ The second line contains an integer, ***p***, the page to turn to.
 - **1** $\leq$ ***n*** $\leq$ **10<sup>5</sup>**
 
 - **1** $\leq$ ***p*** $\leq$ ***n***
+
+<!-- ------------------------------------------------------------ -->
+
+## [Picking Numbers]()
+
+Given an array of integers, find the longest subarray where the absolute difference between any two elements is less than or equal to **1**.
+
+### Example
+
+***a*** = **[1,1, 2, 2, 4, 4, 5, 5, 5]**
+
+There are two subarrays meeting the criterion: **[1, 1, 2, 2]** and **[4, 4, 5, 5, 5]**. The maximum length subarray has **5** elements.
+
+### Function Description
+
+Complete the pickingNumbers function in the editor below.
+
+pickingNumbers has the following parameter(s):
+
+- int a[n]: an array of integers
+
+### Returns
+
+- int: the length of the longest subarray that meets the criterion
+
+### Input Format
+
+The first line contains a single integer ***n***, the size of the array ***a***.
+
+The second line contains ***n*** space-separated integers, each an ***a***[i].
+
+### Constraints
+
+- **2** $\leq$ ***n*** $\leq$ **100**
+
+- **0** $\lt$ ***a***[i] $\lt$ **100**
+
+- The answer will be $\geq$ **2**
