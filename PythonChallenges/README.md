@@ -1269,7 +1269,7 @@ The second line contains ***n*** space-separated integers, each an ***a***[i].
 
 <!-- ------------------------------------------------------------ -->
 
-## [Left Rotation]()
+## [Left Rotation](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0024-LeftRotation.py)
 
 A left rotation operation on an array of size ***n*** shifts each of the array's elements **1** unit to the left. Given an integer, **4**, rotate the array that many steps left and return the result.
 
