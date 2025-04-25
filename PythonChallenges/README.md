@@ -21,7 +21,8 @@
 [Zig Zag Sequence](#zig-zag-sequence)\
 [Drawing Book](#drawing-book)\
 [Picking Numbers](#picking-numbers)\
-[Left Rotation](#left-rotation)
+[Left Rotation](#left-rotation)\
+[Number Line Jumps](#number-line-jumps)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -1322,3 +1323,53 @@ The second line contains ***n*** space-separated integers that describe ***arr*[
 To perform ***d*** = **4** left rotations, the array undergoes the following sequence of changes:
 
 **[1, 2, 3, 4, 5] -> [2, 3, 4, 5, 1] -> [3, 4, 5, 1, 2] -> [4, 5, 1, 2, 3] -> [5, 1, 2, 3, 4]**
+
+<!-- ------------------------------------------------------------ -->
+
+## [Number Line Jumps]()
+
+You are choreographing a circus show with various animals. For one act, you are given two kangaroos on a number line ready to jump in the positive direction (i.e, toward positive infinity).
+
+- The first kangaroo starts at location ***x*****1** and moves at a rate of ***v1*****1** meters per jump.
+
+- The second kangaroo starts at location ***x*****2** and moves at a rate of ***v*****2** meters per jump.
+
+You have to figure out a way to get both kangaroos at the same location at the same time as part of the show. If it is possible, return YES, otherwise return NO.
+
+### Example
+
+***x*****1** = **2**
+
+***v*****1** = **1**
+
+***x*****2** = **1**
+
+***v*****2** = **2**
+
+After one jump, they are both at ***x*** = **3**, (***x*****1** + ***v*****1** = **2** + **1**, ***x*****2** + ***v*****2** = **1** + **2**), so the answer is YES.
+
+### Function Description
+
+Complete the function kangaroo in the editor below.
+
+kangaroo has the following parameter(s):
+
+- int x1, int v1: starting position and jump distance for kangaroo 1
+
+- int x2, int v2: starting position and jump distance for kangaroo 2
+
+### Returns
+
+- string: either YES or NO
+
+### Input Format
+
+A single line of four space-separated integers denoting the respective values of ***x*****1**, ***v*****1**, ***x*****2**, and ***v*****2**.
+
+### Constraints
+
+- **0** $\leq$ ***x*****1** $\lt$ ***x*****2** $\leq$ **100000**
+
+- **1** $\leq$ ***v*****1** $\leq$ **100000**
+
+- **1** $\leq$ ***v*****2** $\leq$ **100000**
