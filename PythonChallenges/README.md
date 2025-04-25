@@ -1326,11 +1326,11 @@ To perform ***d*** = **4** left rotations, the array undergoes the following seq
 
 <!-- ------------------------------------------------------------ -->
 
-## [Number Line Jumps]()
+## [Number Line Jumps](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0025-NumberLineJumps.py)
 
 You are choreographing a circus show with various animals. For one act, you are given two kangaroos on a number line ready to jump in the positive direction (i.e, toward positive infinity).
 
-- The first kangaroo starts at location ***x*****1** and moves at a rate of ***v1*****1** meters per jump.
+- The first kangaroo starts at location ***x*****1** and moves at a rate of ***v*****1** meters per jump.
 
 - The second kangaroo starts at location ***x*****2** and moves at a rate of ***v*****2** meters per jump.
 
