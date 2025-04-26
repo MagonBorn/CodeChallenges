@@ -1385,7 +1385,7 @@ Sorting is useful as the first step in many different tasks. The most common tas
 
 ***arr*** = [**5, 2, 3, 4, 1**]
 
-Sorted, ***arr*** = [**1, 2, 3, 4, 5**]. Several pairs have the minimum difference of **1**: [(**1, 2), (2, 3), (3, 4), (4, 5)]. Return the array [**1, 2, 2, 3, 3, 4, 4, 5**].
+Sorted, ***arr*** = [**1, 2, 3, 4, 5**]. Several pairs have the minimum difference of **1**: [(**1, 2), (2, 3), (3, 4), (4, 5)**]. Return the array [**1, 2, 2, 3, 3, 4, 4, 5**].
 
 ### Note
 
