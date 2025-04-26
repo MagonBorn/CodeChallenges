@@ -22,7 +22,8 @@
 [Drawing Book](#drawing-book)\
 [Picking Numbers](#picking-numbers)\
 [Left Rotation](#left-rotation)\
-[Number Line Jumps](#number-line-jumps)
+[Number Line Jumps](#number-line-jumps)\
+[Closest Numbers](#closest-numbers)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -1376,7 +1377,7 @@ A single line of four space-separated integers denoting the respective values of
 
 <!-- ------------------------------------------------------------ -->
 
-## [Closest Numbers]()
+## [Closest Numbers](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0026-ClosestNumbers.py)
 
 Sorting is useful as the first step in many different tasks. The most common task is to make finding things easier, but there are other uses as well. In this case, it will make it easier to determine which pair or pairs of elements have the smallest absolute difference between them.
 
