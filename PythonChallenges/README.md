@@ -23,7 +23,8 @@
 [Picking Numbers](#picking-numbers)\
 [Left Rotation](#left-rotation)\
 [Number Line Jumps](#number-line-jumps)\
-[Closest Numbers](#closest-numbers)
+[Closest Numbers](#closest-numbers)\
+[Tower Breakers](#tower-breakers)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -1461,7 +1462,7 @@ Here, the minimum difference is 1. Valid pairs are (2, 3), (3, 4), and (4, 5).
 
 <!-- ------------------------------------------------------------ -->
 
-## [Tower Breakers]()
+## [Tower Breakers](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0027-TowerBreakers.py)
 
 Two players are playing a game of Tower Breakers! Player **1** always moves first, and both players always play optimally. The rules of the game are as follows:
 
@@ -1469,7 +1470,7 @@ Two players are playing a game of Tower Breakers! Player **1** always moves firs
 
 - Each tower is of height *m*.
 
--The players move in alternating turns.
+- The players move in alternating turns.
 
 - In each turn, a player can choose a tower of height *x* and reduce its height to *y*, where **1** $\leq$ *y* $\lt$ *x* and *y* evenly divides *x*.
 
@@ -1535,6 +1536,6 @@ Each of the next **t** lines describes a test case in the form of **2** space-se
 
 We'll refer to player **1** as ***P*****1** and player **2** as ***P*****2**
 
-In the first test case, ***P*****1** chooses one of the two towers and reduces it to **1**. Then **P*****2** reduces the remaining tower to a height of **1**. As both towers now have height , ***P*****1** cannot make a move so **P*****2** is the winner.
+In the first test case, ***P*****1** chooses one of the two towers and reduces it to **1**. Then **P*****2** reduces the remaining tower to a height of **1**. As both towers now have height **1**, ***P*****1** cannot make a move so **P*****2** is the winner.
 
-In the second test case, there is only one tower of height **4**. ***P*****1** can reduce it to a height of either **1** or **2**. ***P*****1** chooses **1** as both players always choose optimally. Because **P*****2** has no possible move, ***P*****1** wins.
+In the second test case, there is only one tower of height **4**. ***P*****2** can reduce it to a height of either **1** or **2**. ***P*****1** chooses **1** as both players always choose optimally. Because **P*****2** has no possible move, ***P*****1** wins.
