@@ -25,7 +25,7 @@
 [Number Line Jumps](#number-line-jumps)\
 [Closest Numbers](#closest-numbers)\
 [Tower Breakers](#tower-breakers)\
-[Minimum Absolute Difference in an Array]()
+[Minimum Absolute Difference in an Array](#minimum-absolute-difference-in-an-array)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -1543,9 +1543,9 @@ In the second test case, there is only one tower of height **4**. ***P*****2** c
 
 <!-- ------------------------------------------------------------ -->
 
-## [Minimum Absolute Difference in an Array]()
+## [Minimum Absolute Difference in an Array](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0028-MinAbsArrayDiff.py)
 
-The absolute difference is the positive difference between two values *a* and *b*, is written |*a* - *b*| or |*b* - *a*| and they are equal. If *a* = **3** and *b* = **2*, |**3** - **2**| = |**2** - **3**| = **1**. Given an array of integers, find the minimum absolute difference between any two elements in the array.
+The absolute difference is the positive difference between two values *a* and *b*, is written |*a* - *b*| or |*b* - *a*| and they are equal. If *a* = **3** and *b* = **2**, |**3** - **2**| = |**2** - **3**| = **1**. Given an array of integers, find the minimum absolute difference between any two elements in the array.
 
 ### Example. 
 
@@ -1573,4 +1573,4 @@ The second line contains ***n*** space-separated integers, ***arr***[**i**].
 
 - **2** $\leq$ ***n*** $\leq$ **10<sup5</sup>**
 
-- **-10<sup>9</sup>** $\leq$ ***arr**[**i**] $\leq$ ***10<sup>9</sup>**
+- **-10<sup>9</sup>** $\leq$ ***arr***[**i**] $\leq$ **10<sup>9</sup>**
