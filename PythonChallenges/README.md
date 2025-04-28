@@ -24,7 +24,8 @@
 [Left Rotation](#left-rotation)\
 [Number Line Jumps](#number-line-jumps)\
 [Closest Numbers](#closest-numbers)\
-[Tower Breakers](#tower-breakers)
+[Tower Breakers](#tower-breakers)\
+[Minimum Absolute Difference in an Array]()
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -1539,3 +1540,37 @@ We'll refer to player **1** as ***P*****1** and player **2** as ***P*****2**
 In the first test case, ***P*****1** chooses one of the two towers and reduces it to **1**. Then **P*****2** reduces the remaining tower to a height of **1**. As both towers now have height **1**, ***P*****1** cannot make a move so **P*****2** is the winner.
 
 In the second test case, there is only one tower of height **4**. ***P*****2** can reduce it to a height of either **1** or **2**. ***P*****1** chooses **1** as both players always choose optimally. Because **P*****2** has no possible move, ***P*****1** wins.
+
+<!-- ------------------------------------------------------------ -->
+
+## [Minimum Absolute Difference in an Array]()
+
+The absolute difference is the positive difference between two values *a* and *b*, is written |*a* - *b*| or |*b* - *a*| and they are equal. If *a* = **3** and *b* = **2*, |**3** - **2**| = |**2** - **3**| = **1**. Given an array of integers, find the minimum absolute difference between any two elements in the array.
+
+### Example. 
+
+There are **3** pairs of numbers: |-**2**, **2**|, |-**2**, **4**| and |**2**, **4**|. The absolute differences for these pairs are |**(-2)** -**2**| = **4**, |**(-2) -4**| = **6** and |**2 - 4**| = **2**. The minimum absolute difference is **2**.
+
+### Function Description
+
+Complete the minimumAbsoluteDifference function in the editor below. It should return an integer that represents the minimum absolute difference between any pair of elements.
+
+minimumAbsoluteDifference has the following parameter(s):
+
+- int arr[n]: an array of integers
+
+### Returns
+
+- int: the minimum absolute difference found
+
+### Input Format
+
+The first line contains a single integer ***n***, the size of ***arr***.
+
+The second line contains ***n*** space-separated integers, ***arr***[**i**].
+
+### Constraints
+
+- **2** $\leq$ ***n*** $\leq$ **10<sup5</sup>**
+
+- **-10<sup>9</sup>** $\leq$ ***arr**[**i**] $\leq$ ***10<sup>9</sup>**
