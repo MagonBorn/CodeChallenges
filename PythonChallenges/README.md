@@ -1652,3 +1652,156 @@ The third line contains ***k***, the number of letters to rotate the alphabet by
     t -> v
     z -> b
 
+<!-- ------------------------------------------------------------ -->
+
+## [Mock Test Week 4]()
+
+Two words are anangrams of one another if their letters can be rearranged to form the other word.
+
+Given a string, split it into two contiguous substrings of equal length. Determine the minimum number of characters to change to make the two substrings into anagrams of each other.
+
+### Example
+
+***s*** = **abccde**
+Break ***s*** into two parts 'abc' and 'cde'. Note that all letter have been used, the substrings are contiguous and their lengths are equal. Now you can change the 'a' and 'b' in the first substring to 'd' and 'e' tto have 'dec' and 'cde' with are anagrams. Two changes were necessary.
+
+### Function Desacription
+
+Complete the anagram function: *anagram* has the following parameter(s):
+
+- *string s*: a string
+
+### Returns
+
+' *int*: the minimum number of changes of characters to change or -1.
+
+### Input format
+
+The first line will contain an integer *q*, the number of test cases.\
+Each test case will contain a string *s*.
+
+### Constraints
+
+- **1** $\leq$ *q* $\leq$ **100**
+
+- **1** $\leq$ |*s*| $\leq$ **10<sup4</sup>**
+
+-*s* consists only of characters in the range ascii[a-z].
+
+### Sample Input
+
+    6
+    aaabbb
+    ab
+    abc
+    mnop
+    xyyx
+    xaxbbbxx
+
+### Sample Output
+
+    3
+    1
+    -1
+    2
+    0
+    1
+
+### Explanation
+
+*Test case #01:* We split *s* into two strings ***S1***='aaa' and ***S2***='bbb'. We have to replace all three characters from the first string with 'b' to make the stings anagrams.
+
+*Test case #02:* You have to replace 'a' with 'b', which will generate 'bb'.
+
+*Test case #3:* It is not possible for two strings of unequal length to be anagrans of one another.
+
+*Test case #4:* We have to replace both the characters of the first string ('mn') to make it an anagram of the other one.
+
+*Test case #5: ***S1*** and ***S2*** are already anagrams of one another.
+
+*Test case #6:* here S1 = 'xaxb' and S2 = 'bbxx'. You must replace 'a' from S1 with 'b' so that S1 = 'xbxb'.
+
+<!-- ------------------------------------------------------------ -->
+
+## [Max Min]()
+
+You will be given a list of integers, ***arr***, and a single integer ***k***. You must create an array of length ***k*** from elements of ***arr*** such that its unfairness is minimized. Call that array ***arr'***. Unfairness of an array is calculated as
+
+- ***max(arr') - min(arr')***
+
+Where:\
+- max denotes the largest integer in ***arr'***
+- min denotes the smallest integer in ***arr'***
+
+### Example
+
+***arr*** = [**1, 4, 7, 2**]
+
+**k** = **2**
+
+Pick any two elements, say ***arr'*** = [**4, 7**].
+
+***unfairness*** = ***max***(**4, 7**) - ***min***(**4, 7**) = **7** - **4** = **3**
+
+Testing for all pairs, the solution [**1, 2*] provides the minimum unfairness.
+
+**Note**: Integers in ***arr*** may not be unique.
+
+### Function Description
+
+Complete the maxMin function in the editor below.
+
+maxMin has the following parameter(s):
+
+- int k: the number of elements to select
+
+- int arr[n]: an array of integers
+
+### Returns
+
+- int: the minimum possible unfairness
+
+### Input Format
+
+The first line contains an integer ***n***, the number of elements in array ***arr***.\
+The second line contains an integer ***k***.\
+Each of the next ***n*** lines contains an integer ***arr***[**i**] where **0** $\leq$ ***i*** $\lt$ ***n***.
+
+### Constraints
+
+- **2** $\leq$ ***n*** $\leq$ **10<sup>5</sup>**
+
+- **2** $\leq$ ***k*** $\leq$ ***n***
+
+- **0** $\leq$ ***arr***[**i**] $\leq$ **10<sup>9</sup>**
+
+### Sample Input
+
+### Sample Input #01
+
+    10
+    4
+    1
+    2
+    3
+    4
+    10
+    20
+    30
+    40
+    100
+    200
+
+### Sample Output
+
+### Sample Output #01
+
+    3
+
+### Explanation
+
+### Explanation #01
+
+Here ***K*** = **4**; selecting the **4** integers **1, 2, 3, 4**, unfairness equals
+
+    max(1,2,3,4) - min(1,2,3,4) = 4 - 1 = 3
