@@ -26,7 +26,9 @@
 [Closest Numbers](#closest-numbers)\
 [Tower Breakers](#tower-breakers)\
 [Minimum Absolute Difference in an Array](#minimum-absolute-difference-in-an-array)\
-[Caesar Cipher](#caesar-cipher)
+[Caesar Cipher](#caesar-cipher)\
+[Mock Test Week 4](#mock-test-week-4)\
+[Max Min](#max-min)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -1654,7 +1656,7 @@ The third line contains ***k***, the number of letters to rotate the alphabet by
 
 <!-- ------------------------------------------------------------ -->
 
-## [Mock Test Week 4]()
+## [Mock Test Week 4](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0030-MockTestWeek4.py)
 
 Two words are anangrams of one another if their letters can be rearranged to form the other word.
 
@@ -1663,7 +1665,7 @@ Given a string, split it into two contiguous substrings of equal length. Determi
 ### Example
 
 ***s*** = **abccde**
-Break ***s*** into two parts 'abc' and 'cde'. Note that all letter have been used, the substrings are contiguous and their lengths are equal. Now you can change the 'a' and 'b' in the first substring to 'd' and 'e' tto have 'dec' and 'cde' with are anagrams. Two changes were necessary.
+Break ***s*** into two parts 'abc' and 'cde'. Note that all letter have been used, the substrings are contiguous and their lengths are equal. Now you can change the 'a' and 'b' in the first substring to 'd' and 'e' to have 'dec' and 'cde' with are anagrams. Two changes were necessary.
 
 ### Function Desacription
 
@@ -1673,7 +1675,7 @@ Complete the anagram function: *anagram* has the following parameter(s):
 
 ### Returns
 
-' *int*: the minimum number of changes of characters to change or -1.
+- *int*: the minimum number of changes of characters to change or -1.
 
 ### Input format
 
@@ -1717,19 +1719,19 @@ Each test case will contain a string *s*.
 
 *Test case #4:* We have to replace both the characters of the first string ('mn') to make it an anagram of the other one.
 
-*Test case #5: ***S1*** and ***S2*** are already anagrams of one another.
+*Test case #5*: ***S1*** and ***S2*** are already anagrams of one another.
 
 *Test case #6:* here S1 = 'xaxb' and S2 = 'bbxx'. You must replace 'a' from S1 with 'b' so that S1 = 'xbxb'.
 
 <!-- ------------------------------------------------------------ -->
 
-## [Max Min]()
+## [Max Min](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0031-MaxMin.py)
 
 You will be given a list of integers, ***arr***, and a single integer ***k***. You must create an array of length ***k*** from elements of ***arr*** such that its unfairness is minimized. Call that array ***arr'***. Unfairness of an array is calculated as
 
 - ***max(arr') - min(arr')***
 
-Where:\
+Where:
 - max denotes the largest integer in ***arr'***
 - min denotes the smallest integer in ***arr'***
 
@@ -1743,7 +1745,7 @@ Pick any two elements, say ***arr'*** = [**4, 7**].
 
 ***unfairness*** = ***max***(**4, 7**) - ***min***(**4, 7**) = **7** - **4** = **3**
 
-Testing for all pairs, the solution [**1, 2*] provides the minimum unfairness.
+Testing for all pairs, the solution [**1, 2**] provides the minimum unfairness.
 
 **Note**: Integers in ***arr*** may not be unique.
 

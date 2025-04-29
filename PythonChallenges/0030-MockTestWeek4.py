@@ -12,8 +12,6 @@ def anagram(s):
 
 
 if __name__ == '__main__':
-  # s = list(map(
-  #     str, "hhpddlnnsjfoyxpciioigvjqzfbpllssuj xulkowreuowzxgnhmiqekxhzistdocbnyozmnqthhpievvlj dnqaurlplofnrtmh aujteqimwfkjoqodgqaxbrkrwykpmuimqtgulojjwtukjiqrasqejbvfbixnchzsahpnyayutsgecwvcqngzoehrmeeqlgknnb lbafwuoawkxydlfcbjjtxpzpchzrvbtievqbpedlqbktorypcjkzzkodrpvosqzxmpad drngbjuuhmwqwxrinxccsqxkpwygwcdbtriwaesjsobrntzaqbe ubulzt vxxzsqjqsnibgydzlyynqcrayvwjurfsqfrivayopgrxewwruvemzy xtnipeqhxvafqaggqoanvwkmthtfirwhmjrbphlmeluvoa gqdvlchavotcykafyjzbbgmnlajiqlnwctrnvznspiwquxxsiwuldizqkkaawpyyisnftdzklwagv".rstrip().split()))
   s = list(map(str, "aaabbb ab abx mnop xyyx xaxbbbxx".rstrip().split()))
   for i in s:
     result = anagram(i)
