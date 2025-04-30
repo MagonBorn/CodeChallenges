@@ -28,7 +28,8 @@
 [Minimum Absolute Difference in an Array](#minimum-absolute-difference-in-an-array)\
 [Caesar Cipher](#caesar-cipher)\
 [Mock Test Week 4](#mock-test-week-4)\
-[Max Min](#max-min)
+[Max Min](#max-min)\
+[Strong Password](#strong-password)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -1810,6 +1811,8 @@ Here ***K*** = **4**; selecting the **4** integers **1, 2, 3, 4**, unfairness eq
 
 <!-- ------------------------------------------------------------ -->
 
+## [Strong Password](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0032-StrongPassword.py)
+
 Louise joined a social networking site to stay in touch with her friends. The signup page required her to input a name and a password. However, the password must be strong. The website considers a password to be strong if it satisfies the following criteria:
 
 - Its length is at least **6**.
@@ -1833,7 +1836,7 @@ Note: Here's the set of types of characters in a form you can paste in your solu
 
 This password is 5 characters long and is missing an uppercase and a special character. The minimum number of characters to add is **2**.
 
-**password** = **2bb#A'**
+**password** = **'2bb#A'**
 
 This password is 5 characters long and has at least one of each character type. The minimum number of characters to add is **1**.
 
