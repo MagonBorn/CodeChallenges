@@ -30,7 +30,8 @@
 [Mock Test Week 4](#mock-test-week-4)\
 [Max Min](#max-min)\
 [Strong Password](#strong-password)\
-[Dynamic Array](#dynamic-array)
+[Dynamic Array](#dynamic-array)\
+[Smart Number 2](#smart-number-2)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -1962,7 +1963,7 @@ arr[1] = [7]
 
 <!-- ------------------------------------------------------------ -->
 
-## [Smart Number 2]()
+## [Smart Number 2](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0034-SmartNumber2.py)
 
 In this challenge, the task is to debug the existing code to successfully execute all provided test files.
 
