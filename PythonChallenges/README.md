@@ -1876,14 +1876,14 @@ The second line contains the password string. Each character is either a lowerca
 
 - There are **2** types of queries, given as an array of strings for you to parse:
 
-1. Query: 1 x y
-  1.1 Let ***idx*** = ((x $\oplus$ lastAnswer) % n).
-  1.2 Append the integer ***y*** to ***arr[idx]***.
+1. Query: 1 x y\
+  1 Let ***idx*** = ((x $\oplus$ lastAnswer) % n).\
+  2 Append the integer ***y*** to ***arr[idx]***.
 
-2. Query: 2 x y
-  1.2 Let ***idx*** = ((x $\oplus$ lastAnswer) % n).
-  1.2 Assign the value arr[idx][y % size(arr[idx])] to ***lastAnswer***
-  1.3 Store the new value of ***lastAnswer*** to an answers array.
+2. Query: 2 x y\
+  2 Let ***idx*** = ((x $\oplus$ lastAnswer) % n).\
+  2 Assign the value arr[idx][y % size(arr[idx])] to ***lastAnswer***\
+  3 Store the new value of ***lastAnswer*** to an answers array.
 
 **Note:** $\oplus$ is the bitwise XOR operation, which corresponds to the ^ operator in most languages. % is the modulo operator.
 
