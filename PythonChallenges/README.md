@@ -31,7 +31,8 @@
 [Max Min](#max-min)\
 [Strong Password](#strong-password)\
 [Dynamic Array](#dynamic-array)\
-[Smart Number 2](#smart-number-2)
+[Smart Number 2](#smart-number-2)\
+[Missing Numbers](#missing-numbers)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -2011,7 +2012,7 @@ The factors of 1 are just 1 itself.So the answer is YES. The factors of 2 are 1 
 
 <!-- ------------------------------------------------------------ -->
 
-## [Missing Numbers]()
+## [Missing Numbers](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0035-MissingNumbers.py)
 
 Given two arrays of integers, find which elements in the second array are missing from the first array.
 
