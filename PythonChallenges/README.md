@@ -2135,7 +2135,7 @@ Each of the next ***n*** contains  ***x***[**i**] and ***s***[**i**], the intege
 
 - **1** $\leq$ | **s** | $\leq$ **10**
 
-- **0** $\leq$ ***x*** $\lt$ **100**, **$x in ar$**
+- **0** $\leq$ ***x*** $\lt$ **100**, **$x \in ar$**
 
 - ***s***[**i**] consists of characters in the rangfe **ascii[a-z]**
 
