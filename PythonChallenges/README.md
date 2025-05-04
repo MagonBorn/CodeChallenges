@@ -34,7 +34,9 @@
 [Smart Number 2](#smart-number-2)\
 [Missing Numbers](#missing-numbers)\
 [The Full Counting Sort](#the-full-counting-sort)\
-[Grid Challenge](#grid-challenge)
+[Grid Challenge](#grid-challenge)\
+[Sansa and XOR](#sansa-and-xor)\
+[]
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -2276,3 +2278,114 @@ The **5**x**5** grid in the **1** test case can be reordered to
     uvwxy
 
 This fulfills the condition since the rows 1, 2, ..., 5 and the columns 1, 2, ..., 5 are all alphabetically sorted.
+
+<!-- ------------------------------------------------------------ -->
+
+## [Sansa and XOR]()
+
+Sansa has an array. She wants to find the value obtained by XOR-ing the contiguous subarrays, followed by XOR-ing the values thus obtained. Determine this value.
+
+Example
+
+***arr*** = [**3, 4, 5**]
+
+Subarray	Operation	Result
+    3		None		3
+    4		None		4
+    5		None		5
+    3,4		3 XOR 4		7
+    4,5		4 XOR 5		1
+    3,4,5		3 XOR 4 XOR 5	2
+
+Now we take the resultant values and XOR them together:
+
+**3** $\theta$ **4** $\theta$ **5** $\theta$ **7** $\theta$ **1** $\theta$ **2** = **6**. Return **6**.
+
+### Function Description
+
+Complete the sansaXor function in the editor below.
+
+sansaXor has the following parameter(s):
+
+- int arr[n]: an array of integers
+
+### Returns
+
+- int: the result of calculations
+
+### Input Format
+
+The first line contains an integer ***t***, the number of the test cases.
+
+Each of the next ***t*** pairs of lines is as follows:
+
+- The first line of each test case contains an integer ***n***, the number of elements in ***arr***.
+
+- The second line of each test case contains ***n*** space-separated integers ***arr***[**i**].
+
+### Constraints
+
+- **1** $\leq$ ***t*** $\leq$ **5**
+
+- **2** $\leq$ ***n*** $\leq$ **10<sup>5</sup>**
+
+- **1** $\leq$$ ***arr***[**i**] $\leq$ **10<sup>8</sup>**
+
+### Sample Input
+
+    2
+    3
+    1 2 3
+    4
+    4 5 7 5
+
+### Sample Output
+
+    2
+    0
+
+### Explanation
+
+#### Test case #00:
+**1** $\theta$ **2** $\theta$ **3** $\theta$ (**1** $\theta$ **2**) $\theta$ (**2** $\theta$ **3**) $\theta$ (**1** $\theta$ **2** $\theta$ **3**) = **2**
+
+#### Test case #01:
+**4** $\theta$ **5** $\theta$ **7** $\theta$ **5** $\theta$ (**4** $\theta$ **5**) $\theta$ (**5** $\theta$ **7**) $\theta$ (**7** $\theta$ **5**) $\theta$ (**4** $\theta$ **5** $\theta$ **7**) $\theta$ (**5** $\theta$ **7** $\theta$ **5**) $\theta$ (**4** $\theta$ **5** $\theta$ **7** $\theta$ **5**) = **0**
+
+<!-- ------------------------------------------------------------ -->
+
+## [Prime Dates]()
+
+In this challenge, the task is to debug the existing code to successfully execute all provided test files.
+
+Given two dates each in the format dd-mm-yyyy, you have to find the number of lucky dates between them (inclusive). To see if a date is lucky,
+
+- Firstly, sequentially concatinate the date, month and year, into a new integer ***x*** erasing the leading zeroes.
+
+- Now if ***x*** is divisible by either **4** or **7**, then we call the date a lucky date.
+
+For example, let's take the date "02-08-2024". After concatinating the day, month and year, we get ***x***  = 2082024. As ***x*** is divisible by **4** so the date "02-08-2024" is called a lucky date.
+
+Debug the given function findPrimeDates and/or other lines of code, to find the correct lucky dates from the given input.
+
+**Note:** You can modify at most five lines in the given code and you cannot add or remove lines to the code.
+
+To restore the original code, click on the icon to the right of the language selector.
+
+### Input Format
+
+The only line of the input contains two strings ***u*** and ***v*** denoting the two dates following the format dd-mm-yyyy. Consider, ***d*** is the day number, ***m*** is the month number and ***y*** is the year number.
+
+Note: Here ***m*** = **1** means January, ***m*** = **2** means February, ***m*** = **3** means March and so on and all the dates follow the standard structure of English calender including the leap year.
+
+### Constraints
+
+- **1** $\leq$ ***d2, d2*** $\leq$ **31**
+
+- **1** $\leq$ ***m1, m2*** $\leq$ **12**
+
+- **1000** $\leq$ ***y1*** $\leq$ ***y2*** $\leq$ **9999**
+
+### Output Format
+
+For each test cases, print a single integer the number of lucky dates between ***u*** and ***v*** in a single line.
