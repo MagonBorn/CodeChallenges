@@ -36,7 +36,7 @@
 [The Full Counting Sort](#the-full-counting-sort)\
 [Grid Challenge](#grid-challenge)\
 [Sansa and XOR](#sansa-and-xor)\
-[]
+[Prime Dates](#prime-dates)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -2281,7 +2281,7 @@ This fulfills the condition since the rows 1, 2, ..., 5 and the columns 1, 2, ..
 
 <!-- ------------------------------------------------------------ -->
 
-## [Sansa and XOR]()
+## [Sansa and XOR](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0038-SansaAndXOR.py)
 
 Sansa has an array. She wants to find the value obtained by XOR-ing the contiguous subarrays, followed by XOR-ing the values thus obtained. Determine this value.
 
@@ -2354,7 +2354,7 @@ Each of the next ***t*** pairs of lines is as follows:
 
 <!-- ------------------------------------------------------------ -->
 
-## [Prime Dates]()
+## [Prime Dates](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0040-PrimeDates.py)
 
 In this challenge, the task is to debug the existing code to successfully execute all provided test files.
 
