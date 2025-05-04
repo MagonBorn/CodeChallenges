@@ -2289,7 +2289,7 @@ Example
 
 ***arr*** = [**3, 4, 5**]
 
-Subarray	Operation	Result
+    Subarray	Operation	Result
     3		None		3
     4		None		4
     5		None		5
