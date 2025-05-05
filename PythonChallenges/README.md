@@ -2393,7 +2393,7 @@ For each test cases, print a single integer the number of lucky dates between **
 
 <!-- ------------------------------------------------------------ -->
 
-## [Sherlock And Array]()
+## [Sherlock And Array](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0041-SherlockAndArray.py)
 
 Watson gives Sherlock an array of integers. His challenge is to find an element of the array such that the sum of all elements to the left is equal to the sum of all elements to the right.
 
