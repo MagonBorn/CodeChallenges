@@ -36,7 +36,8 @@
 [The Full Counting Sort](#the-full-counting-sort)\
 [Grid Challenge](#grid-challenge)\
 [Sansa and XOR](#sansa-and-xor)\
-[Prime Dates](#prime-dates)
+[Prime Dates](#prime-dates)\
+[Sherlock and Array](#sherlock-and-array)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -2389,3 +2390,70 @@ Note: Here ***m*** = **1** means January, ***m*** = **2** means February, ***m**
 ### Output Format
 
 For each test cases, print a single integer the number of lucky dates between ***u*** and ***v*** in a single line.
+
+<!-- ------------------------------------------------------------ -->
+
+## [Sherlock And Array]()
+
+Watson gives Sherlock an array of integers. His challenge is to find an element of the array such that the sum of all elements to the left is equal to the sum of all elements to the right.
+
+### Example
+
+***arr*** = [**5, 6, 8, 11**]
+
+**8** is between two subarrays that sum to **11**.
+
+***arr*** = [**1**]
+
+The answer is [**1**] since left and right sum to **0**.
+
+You will be given arrays of integers and must determine whether there is an element that meets the criterion. If there is, return YES. Otherwise, return NO.
+
+### Function Description
+
+Complete the balancedSums function in the editor below.
+
+balancedSums has the following parameter(s):
+
+- int arr[n]: an array of integers
+
+### Returns
+
+- string: either YES or NO
+
+### Input Format
+
+The first line contains **T**, the number of test cases.
+
+The next **T** pairs of lines each represent a test case.
+
+- The first line contains ***n***, the number of elements in the array ***arr***.
+- The second line contains ***n*** space-separated integers ***arr***[**i**] where **0** $\leq$ ***i*** $\lt$ ***n***.
+
+### Constraints
+
+- **1** $\leq$ **T** $\leq$ **10**
+
+- **1** $\leq$ ***n*** $\leq$ **10<sup>5</sup>**
+
+- **1** $\leq$ ***arr***[**i**] $\leq$ **2 x 10</sup>4</sup>**
+
+- **0** $\leq$ ***i*** $\lt$ ***n***
+
+### Sample Input
+
+    2
+    3
+    1 2 3
+    4
+    1 2 3 3
+
+### Sample Output
+
+    NO
+    YES
+
+### Explanation
+
+For the first test case, no such index exists.
+For the second test case, **A[0] + A[1] = A[3]**, therefore index **2** satisfies the given conditions
