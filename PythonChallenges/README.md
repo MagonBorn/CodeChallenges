@@ -2600,7 +2600,7 @@ For **100%** of the maximum score:
 
 ## [Forming A Magic Square]()
 
-We define a magic square to be an $\x \times \x$ matrix of distinct positive integers from **1** to ***n<sup>2</sup>*** where the sum of any row, column, or diagonal of length ***n*** is always equal to the same number: the magic constant.
+We define a magic square to be an $x \times x$ matrix of distinct positive integers from **1** to ***n<sup>2</sup>*** where the sum of any row, column, or diagonal of length ***n*** is always equal to the same number: the magic constant.
 
 You will be given a $\3 \times \3$ matrix ***s*** of integers in the inclusive range [**1, 9**]. We can convert any digit $\a$ to any other digit $\b$ in the range [$\1, \9$] at cost of |$\a - \b$|. Given $\s$, convert it into a magic square at minimal cost. Print this cost on a new line.
 
@@ -2656,7 +2656,7 @@ Each of the $\3$ lines contains three space-separated integers of row $\s[i]$.
 
 ### Explanation
 
-Matrix $\s$ initially looks like this:
+Matrix $s$ initially looks like this:
 
     4 9 2
     3 5 7
@@ -2664,4 +2664,4 @@ Matrix $\s$ initially looks like this:
 
 Observe that it's not yet magic, because not all rows, columns, and center diagonals sum to the same number.
 
-If we change the bottom right value, $\s[2][2]$, from $\5$ to $\6$ at a cost of $\|6 - 5| = 1$, $\s$ becomes a magic square at the minimum possible cost. Thus, we print the cost, $\1$, on a new line.
+If we change the bottom right value, $s[2][2]$, from $5$ to $6$ at a cost of $\|6 - 5| = 1$, $s$ becomes a magic square at the minimum possible cost. Thus, we print the cost, $1$, on a new line.
