@@ -2602,9 +2602,9 @@ For **100%** of the maximum score:
 
 We define a magic square to be an $x \times x$ matrix of distinct positive integers from **1** to ***n<sup>2</sup>*** where the sum of any row, column, or diagonal of length ***n*** is always equal to the same number: the magic constant.
 
-You will be given a $\3 \times \3$ matrix ***s*** of integers in the inclusive range [**1, 9**]. We can convert any digit $\a$ to any other digit $\b$ in the range [$\1, \9$] at cost of |$\a - \b$|. Given $\s$, convert it into a magic square at minimal cost. Print this cost on a new line.
+You will be given a $3 \times 3$ matrix ***s*** of integers in the inclusive range [**1, 9**]. We can convert any digit $a$ to any other digit $b$ in the range [$1, 9$] at cost of |$a - b$|. Given $s$, convert it into a magic square at minimal cost. Print this cost on a new line.
 
-**Note:** The resulting magic square must contain distinct integers in the inclusive range [$\1, \9$].
+**Note:** The resulting magic square must contain distinct integers in the inclusive range $[1, 9]$.
 
 ### Example
 
@@ -2622,7 +2622,7 @@ We can convert it to the following magic square:
     1 5 9
     6 7 2
 
-This took three replacements at a cost of $|\5 - \8| + |\8 - \9| + |\4 - \7| = \7$.
+This took three replacements at a cost of $|5 - 8| + |8 - 9| + |4 - 7| = 7$.
 
 ### Function Description
 
@@ -2630,7 +2630,7 @@ Complete the formingMagicSquare function in the editor below.
 
 formingMagicSquare has the following parameter(s):
 
-- int s[3][3]: a $\3 \times \3$ array of integers
+- int s[3][3]: a $3 \times 3$ array of integers
 
 ### Returns
 
@@ -2638,11 +2638,11 @@ formingMagicSquare has the following parameter(s):
 
 ### Input Format
 
-Each of the $\3$ lines contains three space-separated integers of row $\s[i]$.
+Each of the $3$ lines contains three space-separated integers of row $s[i]$.
 
 ### Constraints
 
-- $\s[i][j] \epislon [1, 9]$
+- $s[i][j] \epislon [1, 9]$
 
 ### Sample Input
 
