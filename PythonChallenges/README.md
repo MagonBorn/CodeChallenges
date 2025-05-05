@@ -2600,9 +2600,9 @@ For **100%** of the maximum score:
 
 ## [Forming A Magic Square]()
 
-We define a magic square to be an $x \times x$ matrix of distinct positive integers from **1** to ***n<sup>2</sup>*** where the sum of any row, column, or diagonal of length ***n*** is always equal to the same number: the magic constant.
+We define a magic square to be an $n \times n$ matrix of distinct positive integers from **1** to ***n<sup>2</sup>*** where the sum of any row, column, or diagonal of length ***n*** is always equal to the same number: the magic constant.
 
-You will be given a $3 \times 3$ matrix ***s*** of integers in the inclusive range [**1, 9**]. We can convert any digit $a$ to any other digit $b$ in the range [$1, 9$] at cost of |$a - b$|. Given $s$, convert it into a magic square at minimal cost. Print this cost on a new line.
+You will be given a $3 \times 3$ matrix ***s*** of integers in the inclusive range [**1, 9**]. We can convert any digit $a$ to any other digit $b$ in the range $[1, 9]$ at cost of $|a - b|$. Given $s$, convert it into a magic square at minimal cost. Print this cost on a new line.
 
 **Note:** The resulting magic square must contain distinct integers in the inclusive range $[1, 9]$.
 
@@ -2642,7 +2642,7 @@ Each of the $3$ lines contains three space-separated integers of row $s[i]$.
 
 ### Constraints
 
-- $s[i][j] \epislon [1, 9]$
+- $s[i][j] \epsilon [1, 9]$
 
 ### Sample Input
 
