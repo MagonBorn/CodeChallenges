@@ -2534,7 +2534,7 @@ In the first testcase, the first player removes 1 stone from the first pile and 
 
 <!-- ------------------------------------------------------------ -->
 
-## [Gaming Array]()
+## [Gaming Array](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0043-GamingArray1.py)
 
 Andy wants to play a game with his little brother, Bob. The game starts with an array of distinct integers and the rules are as follows:
 
