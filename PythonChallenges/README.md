@@ -38,7 +38,8 @@
 [Sansa and XOR](#sansa-and-xor)\
 [Prime Dates](#prime-dates)\
 [Sherlock and Array](#sherlock-and-array)\
-[Misere Nim](#misere-nim)
+[Misere Nim](#misere-nim)\
+[Gaming Array](#gaming-array)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -2530,3 +2531,67 @@ Each test case is described over two lines:
 ### Explanation
 
 In the first testcase, the first player removes 1 stone from the first pile and then the second player has no moves other than removing the only stone in the second pile. So first wins.
+
+<!-- ------------------------------------------------------------ -->
+
+## [Gaming Array]()
+
+Andy wants to play a game with his little brother, Bob. The game starts with an array of distinct integers and the rules are as follows:
+
+- Bob always plays first.
+
+- In a single move, a player chooses the maximum element in the array. He removes it and all elements to its right. For example, if the starting array ***arr*** = [**2, 3, 5, 4, 1**], then it becomes ***arr'*** = [**2, 3**] after removing [**5, 4, 1**].
+
+- The two players alternate turns.
+
+- The last player who can make a move wins.
+
+Andy and Bob play ***g*** games. Given the initial array for each game, find and print the name of the winner on a new line. If Andy wins, print ANDY; if Bob wins, print BOB.
+
+To continue the example above, in the next move Andy will remove **3**. Bob will then remove **2** and win because there are no more integers to remove.
+
+### Function Description
+
+Complete the gamingArray function in the editor below.
+
+gamingArray has the following parameter(s):
+
+- int arr[n]: an array of integers
+
+### Returns
+
+- string: either ANDY or BOB
+
+### Input Format
+
+The first line contains a single integer , the number of games.
+
+Each of the next ***g*** pairs of lines is as follows:
+
+- The first line contains a single integer, ***n***, the number of elements in ***arr***.
+
+- The second line contains ***n*** distinct space-separated integers ***arr***[**i**] where **0** $\leq$ **i** $\lt$ ***n***.
+
+### Constraints
+
+- Array ***arr*** contains ***n*** distinct integers.
+
+For **35%** of the maximum score:
+
+- **1** $\leq$ ***g*** $\leq$ **10**
+
+- **1** $\leq$ ***n*** $\leq$ **1000**
+
+- **1** $\leq$ ***arr***[**i**] $\leq$ **10<sup>5</sup>**
+
+- The sum of ***n*** over all games does not exceed **1000**.
+
+For **100%** of the maximum score:
+
+- **1** $\leq$ ***g*** $\leq$ **10**
+
+- **1** $\leq$ ***n*** $\leq$ **10<sup>5</sup>**
+
+- **1** $\leq$ ***a<sub>i</sub>*** $\leq$ **10<sup>9</sup>**
+
+- The sum of ***n*** over all games does not exceed **10<sup>5</sup>**.
