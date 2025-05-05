@@ -2461,7 +2461,7 @@ For the second test case, **A[0] + A[1] = A[3]**, therefore index **2** satisfie
 
 <!-- ------------------------------------------------------------ -->
 
-## [Misere Nim]()
+## [Misere Nim](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0042-MisereNim.py)
 
 Two people are playing game of Misère Nim. The basic rules for this game are as follows:
 
