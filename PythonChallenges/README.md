@@ -2669,7 +2669,7 @@ If we change the bottom right value, $s[2][2]$, from $5$ to $6$ at a cost of $\|
 
 <!-- ------------------------------------------------------------ -->
 
-## [Recursive Digit Sum]()
+## [Recursive Digit Sum](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0045-RecursiveDigitSum.py)
 
 We define super digit of an integer  using the following rules:
 
@@ -2681,10 +2681,10 @@ Given an integer, we need to find the super digit of the integer.
 
 For example, the super digit of  will be calculated as:
 
-      super_digit(9875)   	9+8+7+5 = 29 
-      super_digit(29) 	2 + 9 = 11
-      super_digit(11)		1 + 1 = 2
-      super_digit(2)		= 2  
+      super_digit(9875)   9+8+7+5 = 29 
+      super_digit(29)     2 + 9 = 11
+      super_digit(11)     1 + 1 = 2
+      super_digit(2)      = 2  
 
 ### Example
 
@@ -2722,4 +2722,4 @@ The first line contains two space separated integers, $n$ and $k$.
 
 - $1$ $\leq$ $n$ $\lt$ $10$<sup>$100000$</sup>
 
--$1$ $\leq$ $k$ $\leq$ $10$<sup5</sup>
+-$1$ $\leq$ $k$ $\leq$ $10$<sup>$5$</sup>
