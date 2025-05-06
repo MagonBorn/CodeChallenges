@@ -40,7 +40,8 @@
 [Sherlock and Array](#sherlock-and-array)\
 [Misere Nim](#misere-nim)\
 [Gaming Array](#gaming-array)\
-[Recursive Digit Sum](#recursive-digit-sum)
+[Recursive Digit Sum](#recursive-digit-sum)\
+[Counter Game](#counter-game)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -2722,4 +2723,58 @@ The first line contains two space separated integers, $n$ and $k$.
 
 - $1$ $\leq$ $n$ $\lt$ $10$<sup>100000</sup>
 
--$1$ $\leq$ $k$ $\leq$ $10$<sup>5</sup>
+- $1$ $\leq$ $k$ $\leq$ $10$<sup>5</sup>
+
+<!-- ------------------------------------------------------------ -->
+
+## [Counter Game]()
+
+Louise and Richard have developed a numbers game. They pick a number and check to see if it is a power of $2$. If it is, they divide it by $2$. If not, they reduce it by the next lower number which is a power of $2$. Whoever reduces the number to  wins the game. Louise always starts.
+
+Given an initial value, determine who wins the game.
+
+### Example
+
+It's Louise's turn first. She determines that $132$ is not a power of $2$. The next lower power of $2$ is $127$, so she subtracts that from $132$ and passes $4$ to Richard. $4$ is a power of $2$, so Richard divides it by $2$ and passes $2$ to Louise. Likewise, $2$ is a power so she divides it by $2$ and reaches $1$. She wins the game.
+
+**Update** If they initially set counter to $1$, Richard wins. Louise cannot make a move so she loses.
+
+### Function Description
+
+Complete the counterGame function in the editor below.
+
+counterGame has the following parameter(s):
+
+- int n: the initial game counter value
+
+### Returns
+
+- string: either Richard or Louise
+
+### Input Format
+
+The first line contains an integer $t$, the number of testcases.
+Each of the next $t$ lines contains an integer $n$, the initial value for each game.
+
+### Constraints
+
+- $1$ $\leq$ $t$ $\leq$ $10$
+
+- $1$ $\leq$ $n$ $\leq$ $24$<sup>64</sup> $-1$
+
+### Sample Input
+
+    1
+    6
+
+### Sample Output
+
+    Richard
+
+### Explanation
+
+- As $6$ is not a power of $2$, Louise reduces the largest power of $2$ less than $6$ i.e., $4$, and hence the counter reduces to $2$.
+
+- As $2$ is a power of $2$, Richard reduces the counter by half of $2$ i.e., $1$. Hence the counter reduces to $1$.
+
+As we reach the terminating condition with $N == 1$, Richard wins the game.
