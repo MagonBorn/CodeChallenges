@@ -2720,6 +2720,6 @@ The first line contains two space separated integers, $n$ and $k$.
 
 ### Constraints
 
-- $1$ $\leq$ $n$ $\lt$ $10$<sup>$100000$</sup>
+- $1$ $\leq$ $n$ $\lt$ $10$<sup>100000</sup>
 
--$1$ $\leq$ $k$ $\leq$ $10$<sup>$5$</sup>
+-$1$ $\leq$ $k$ $\leq$ $10$<sup>5</sup>
