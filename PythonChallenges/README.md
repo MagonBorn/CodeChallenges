@@ -2846,9 +2846,9 @@ A single integer, $n$.
 
 For $n=5$, the $x$ values $0$ and $2$ satisfy the conditions:
 
-- $5+0=5,   5\oplus 0=5$
+- $5+0=5$, $5\oplus 0=5$
 
-- $5+2=7,   5\oplus 2=7$
+- $5+2=7$, $5\oplus 2=7$
 
 ### Sample Input 1
 
@@ -2862,10 +2862,10 @@ For $n=5$, the $x$ values $0$ and $2$ satisfy the conditions:
 
 For $n=10$, the $x$ values $0$, $1$, $4$, and $5$ satisfy the conditions:
 
-- $10+0=10,   10\oplus 0=10$
+- $10+0=10$, $10\oplus 0=10$
 
-- $10+1=11,   10\oplus 1=11$
+- $10+1=11$, $10\oplus 1=11$
 
-- $10+2=14,   10\oplus 4=14$
+- $10+2=14$, $10\oplus 4=14$
 
-- $10+5=15,   10\oplus 5=15$
+- $10+5=15$, $10\oplus 5=15$
