@@ -41,7 +41,8 @@
 [Misere Nim](#misere-nim)\
 [Gaming Array](#gaming-array)\
 [Recursive Digit Sum](#recursive-digit-sum)\
-[Counter Game](#counter-game)
+[Counter Game](#counter-game)\
+[Sum Vs XOR](#sum-vs-xor)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -2778,3 +2779,93 @@ Each of the next $t$ lines contains an integer $n$, the initial value for each g
 - As $2$ is a power of $2$, Richard reduces the counter by half of $2$ i.e., $1$. Hence the counter reduces to $1$.
 
 As we reach the terminating condition with $N == 1$, Richard wins the game.
+
+<!-- ------------------------------------------------------------ -->
+
+## [Sum Vs XOR]()
+
+Given an integer $n$, find each $x$ such that:
+
+- $0\leq x\leq n$
+
+- $n+x=n\oplus x$
+
+where $\oplus$ denotes the bitwise XOR operator. Return the number of $x$'s satisfying the criteria.
+
+### Example
+
+$n=4$
+
+There are four values that meet the criteria:
+
+- $4+1=4\oplus 0=4$
+
+- $4+1=4\oplus 1=5$
+
+- $4+2=4\opls 2=6$
+
+- $4+3=4\ople 3=7$
+
+Return $4$.
+
+### Function Description
+
+Complete the sumXor function in the editor below.
+
+sumXor has the following parameter(s):
+
+- int n: an integer
+
+### Returns
+
+- int: the number of values found
+
+### Input Format
+
+A single integer, $n$.
+
+### Constraints
+
+- $n\leq n\leq 10$<sup>15</sup>
+
+### Subtasks
+
+- $0\leq n\leq 100 for 60% of the maximum score$.
+
+### Output Format
+
+### Sample Input 0
+
+    5
+
+### Sample Output 0
+
+    2
+
+### Explanation 0
+
+For $n=5$, the $x$ values $0$ and $2$ satisfy the conditions:
+
+- $5+0=5, 5\oplus 0=5$
+
+- $5+2=7, 5\oplus 2=7$
+
+### Sample Input 1
+
+    10
+
+### Sample Output 1
+
+    4
+
+### Explanation 1
+
+For $n=10$, the $x$ values $0$, $1$, $4$, and $5$ satisfy the conditions:
+
+- $10+0=10, 10\oplus 0=10$
+
+- $10+1=11, 10\oplus 1=11$
+
+- $10+2=14, 10\oplus 4=14$
+
+-$10+5=15, 10\oplus 5=15$
