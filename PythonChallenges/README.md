@@ -43,7 +43,8 @@
 [Recursive Digit Sum](#recursive-digit-sum)\
 [Counter Game](#counter-game)\
 [Sum Vs XOR](#sum-vs-xor)\
-[XCOM-409](#xcom-409)
+[XCOM-409](#xcom-409)\
+[FlickSwitch](#flick-switch)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -2873,7 +2874,7 @@ For $n=10$, the $x$ values $0$, $1$, $4$, and $5$ satisfy the conditions:
 
 <!-- ------------------------------------------------------------ -->
 
-## [XCOM-409]()
+## [XCOM-409](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0049-XCOM-409.py)
 
 You are an intern working in the software development department of the X-COM agency, responsible for fighting off a large-scale invasion of extraterrestrials. Your task for today is described with the bug report below:
 
@@ -2911,7 +2912,7 @@ Investigate and fix the bug in the travel distance calculation function
 
 <!-- ------------------------------------------------------------ -->
 
-## [Flick Switch]()
+## [Flick Switch](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0050-FlickSwitch.py)
 
 ### Task
 
