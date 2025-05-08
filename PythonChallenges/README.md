@@ -1,5 +1,9 @@
 # HackerRank Python Challenges
-[PlusMinus](#plusminus) [Mini-Max Sum](#mini-max-sum) [Time Conversion](#time-conversion) [Breaking The Records](#breaking-the-records) [Divisible Sum Pairs](#divisible-sum-pairs) [Lonely Integer](#lonely-integer)\
+[PlusMinus](#plusminus) [Mini-Max Sum](#mini-max-sum)\
+[Time Conversion](#time-conversion)\
+[Breaking The Records](#breaking-the-records)\
+[Divisible Sum Pairs](#divisible-sum-pairs)\
+[Lonely Integer](#lonely-integer)\
 [Grading Students](#grading-students)\
 [Flipping Bits](#flipping-bits)\
 [Diagonal Difference](#diagonal-difference)\
@@ -39,7 +43,8 @@
 [Counter Game](#counter-game)\
 [Sum Vs XOR](#sum-vs-xor)\
 [XCOM-409](#xcom-409)\
-[FlickSwitch](#flick-switch)
+[FlickSwitch](#flick-switch)\
+[Vanaishing Values](#vanishing-values)
 
 ## [PlusMinus](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0001-PlusMins.py)
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
@@ -2930,7 +2935,7 @@ However, if an element is the word **'flick'**, switch to always returning the o
 
 <!-- ------------------------------------------------------------ -->
 
-## [Vanishing Values]()
+## [Vanishing Values](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0051-VanashingValues.py)
 
 ### Description
 
