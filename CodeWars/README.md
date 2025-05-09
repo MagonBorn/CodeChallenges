@@ -79,7 +79,7 @@ While writing the function, you even added some debugging lines to make sure tha
 
 <!-- ------------------------------------------------------------ -->
 
-## [Planet Mnemonics]()
+## [Planet Mnemonics](https://github.com/MagonBorn/CodeChallenges/blob/main/CodeWars/0004-PlanetMnemonics.py)
 
 Oh no! The planets are jumbled up again!
 
@@ -124,7 +124,7 @@ Pluto will never be part of the Solar System.
 
 <!-- ------------------------------------------------------------ -->
 
-## [What Comes After?]()
+## [What Comes After?](https://github.com/MagonBorn/CodeChallenges/blob/main/CodeWars/0005-WhatComesAfter.py)
 
 You will be given two inputs: a string of words and a letter. For each string, return the alphabetic character after every instance of letter(case insensitive).
 
