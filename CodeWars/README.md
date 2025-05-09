@@ -3,7 +3,8 @@
 [XCOM-409](#xcom-409)\
 [FlickSwitch](#flick-switch)\
 [Vanaishing Values](#vanishing-values)\
-[Planet Mnemonics](#planet-mnemonics)
+[Planet Mnemonics](#planet-mnemonics)\
+[What Comes After](#what-comes-after)
 
 ## [XCOM-409](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0049-XCOM-409.py)
 
@@ -123,3 +124,18 @@ Pluto will never be part of the Solar System.
 
 <!-- ------------------------------------------------------------ -->
 
+## [What Comes After?]()
+
+You will be given two inputs: a string of words and a letter. For each string, return the alphabetic character after every instance of letter(case insensitive).
+
+If there is a number, punctuation or underscore following the letter, it should not be returned.
+
+    If letter = 'r':
+    "are you really learning Ruby?" # => "eenu"
+    "Katy Perry is on the radio!"   # => "rya"
+    "Pirates say arrrrrrrrr."       # => "arrrrrrrr"
+    "r8 your friend"                # => "i"
+
+Return an empty string if there are no instances of letter in the given string.
+
+<!-- ------------------------------------------------------------ -->
