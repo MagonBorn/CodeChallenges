@@ -141,7 +141,7 @@ Return an empty string if there are no instances of letter in the given string.
 
 <!-- ------------------------------------------------------------ -->
 
-## [Mary's Puzzle Book]()
+## [Mary's Puzzle Book](https://github.com/MagonBorn/CodeChallenges/blob/main/CodeWars/0006-MarysPuzzleBook.py)
 
 ### Zero Terminated Sum
 

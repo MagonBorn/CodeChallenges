@@ -8,6 +8,8 @@ import random
 # return the max value from the temp array
 
 # ---------- Initial Solution ----------
+
+
 def largest_sum(s):
     total = 0
     temp = []
@@ -22,14 +24,19 @@ def largest_sum(s):
     return max(temp)
 
 # ---------- Final Solution ----------
+
+
 def largest_sum_modified(s):
     return max(sum(map(int, x)) for x in s.split('0'))
 
 # ---------- Tests ----------
+
+
 class Test(unittest.TestCase):
     def testEquals(self):
         for data in testData:
-          self.assertEqual(largest_sum_modified(data[0]), data[1])
+            self.assertEqual(largest_sum_modified(data[0]), data[1])
+
 
 #  ---------- Testing Data ----------
 testData = [
@@ -60,6 +67,6 @@ if __name__ == '__main__':
     for data in testData:
         result = largest_sum_modified(data[0])
         print(result)
-    
+
     # ---------- Run Tests ----------
     unittest.main()
