@@ -5,7 +5,8 @@
 [Vanaishing Values](#vanishing-values)\
 [Planet Mnemonics](#planet-mnemonics)\
 [What Comes After](#what-comes-after)\
-[Mary's Puzzle Book](#marys-puzzle-book)
+[Mary's Puzzle Book](#marys-puzzle-book)\
+[Unique String Characters](#unique-string-characters)
 
 ## [XCOM-409](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0049-XCOM-409.py)
 
@@ -156,5 +157,23 @@ Write a function largest_sum which takes a string and returns the maximum of the
 **Notes:**
 - A substring can have length 0. For example, 123004560 has three substrings, and the middle one has length 0.
 - All inputs will be valid strings of digits, and the last digit will always be 0.
+
+<!-- ------------------------------------------------------------ -->
+
+## [Unique String Characters]()
+
+In this Kata, you will be given two strings a and b and your task will be to return the characters that are not common in the two strings.
+
+For example:
+
+    solve("xyab","xzca") = "ybzc" 
+    --The first string has 'yb' which is not in the second string. 
+    --The second string has 'zc' which is not in the first string.
+
+Notice also that you return the characters from the first string concatenated with those from the second string.
+
+More examples in the tests cases.
+
+Good luck!
 
 <!-- ------------------------------------------------------------ -->
