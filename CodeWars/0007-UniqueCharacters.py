@@ -20,9 +20,14 @@ def solve(a, b):
             temp.append(i)
     return "".join(temp)
 
-# ---------- Final Solution ----------
+# ---------- Additional Solution ----------
 def solveTwo(a, b):
     return "".join([x for x in a if x not in b] + [x for x in b if x not in a])
+
+# ---------- Final Solution ----------
+def solveThree(a, b):
+    s = set(a) & set(b)
+    return ''.join(c for c in a+b if c not in s)
 
 # ---------- Tests ----------
 class Test(unittest.TestCase):
@@ -47,10 +52,13 @@ if __name__ == '__main__':
         f'Solve Function: {timeit.timeit(lambda: solve(a, b), number=1000000)}')
     print(
         f'Solve Final Function: {timeit.timeit(lambda: solveTwo(a, b), number=1000000)}')
+    print(
+        f'Solve Final Function: {timeit.timeit(lambda: solveThree(a, b), number=1000000)}')
     
     # Time Results:
-    # solve: 39.00026419999995
-    # solve_final: 37.29786370000147
+    # solve: 46.26528759999928
+    # solveTwo: 38.90934170000037
+    # solveThree: 36.971023800000694
 
     # ---------- Results ----------
     for data in testData:
