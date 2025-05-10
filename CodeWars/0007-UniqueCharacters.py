@@ -44,16 +44,16 @@ testData = [
 ]
 
 if __name__ == '__main__':   
-    a = "lCYBYSiXzTWoRNXbHJYFfLWfLhuYnbbiwonEziLuBLvILsJHrxEDjZfwlwngPpIRNGkdmrIPfsACDAlnsEBexeSkJuNigsdtMsSgmOYZfDSVttKHaniauNjdRwcmarNNjcUCLgOUbHLVtjPurdyiTWvpoZlVgwDoHKORDtAMjPUyGQZIpPbhhwwOwulVZrhOcpkyjafwEkOTNZIoClaaWSUphhJucQzmEafhoKSbMlZGQcvFWQqpTzxjtWAzlFBymHfPvITTPCXIXJnfFVqgGphffEWYrWRPUkFvDqkGSHhUYDRfxtHDIhpwoyXNaLMblFBvChxLLRQfdshEKSAXFgPadAWQZINfcQWCTYCTTKgDeWiBeUuRjcWXQnaVbGyRwcOcTtimnXfIghuhTMnZOCPpwoFrUDJYcdtQcvOliQyqpJvkFwNLffzxQePzITMPRogOaynudcCkeXsoMLxCYupPPBmHNYyhGKAkUIOwBVegnbPdjlJleZCJQiuwRinodJfFyyqVDttimNmPOElsMPuPBXIkMACTLpUgGHRoPqGPYFgnZXECWlpvawCCjoDKJHHVoqZOXPtf"
+    # a = "lCYBYSiXzTWoRNXbHJYFfLWfLhuYnbbiwonEziLuBLvILsJHrxEDjZfwlwngPpIRNGkdmrIPfsACDAlnsEBexeSkJuNigsdtMsSgmOYZfDSVttKHaniauNjdRwcmarNNjcUCLgOUbHLVtjPurdyiTWvpoZlVgwDoHKORDtAMjPUyGQZIpPbhhwwOwulVZrhOcpkyjafwEkOTNZIoClaaWSUphhJucQzmEafhoKSbMlZGQcvFWQqpTzxjtWAzlFBymHfPvITTPCXIXJnfFVqgGphffEWYrWRPUkFvDqkGSHhUYDRfxtHDIhpwoyXNaLMblFBvChxLLRQfdshEKSAXFgPadAWQZINfcQWCTYCTTKgDeWiBeUuRjcWXQnaVbGyRwcOcTtimnXfIghuhTMnZOCPpwoFrUDJYcdtQcvOliQyqpJvkFwNLffzxQePzITMPRogOaynudcCkeXsoMLxCYupPPBmHNYyhGKAkUIOwBVegnbPdjlJleZCJQiuwRinodJfFyyqVDttimNmPOElsMPuPBXIkMACTLpUgGHRoPqGPYFgnZXECWlpvawCCjoDKJHHVoqZOXPtf"
 
-    b = "TznfaAMTvmnVjDpdmEHdNbjemIszUhyJLWfsCDAlOPydSGTgdPflYfEPCLYHcRHokAjAydkzFffaWFYZqKHudCRgFskqMnpWOOdoaAXYLlWfzrSmOhpkBVJJtJadudqRFNVdhfiIdhpWcCNkEuDqnQFFlStyvpHVPKpIIqTAfFTrehJUIVoyEzTcCGqNYoDqwsLfEPYpSoIcPtPYfhbwbcgQdOgfLdPCDqYOSlgMHfPjDeAKcMiOXhlosUKTjXYNdVvKVxUbhbcuvCgDfjwxZpMmLtbVIXIMIcrVjmxTFBiJqYoGpGbVxgPTvSIlomHAhwGKvEmMrlwtNcEAimTgrhmoptafxyvVYGMUjmhbajPqByJQkiDJpGBFMFBSEiSVHZNmzitZnmJTBnMBeYAxpZqykpddDhGbcaUoXcPalcYP"
+    # b = "TznfaAMTvmnVjDpdmEHdNbjemIszUhyJLWfsCDAlOPydSGTgdPflYfEPCLYHcRHokAjAydkzFffaWFYZqKHudCRgFskqMnpWOOdoaAXYLlWfzrSmOhpkBVJJtJadudqRFNVdhfiIdhpWcCNkEuDqnQFFlStyvpHVPKpIIqTAfFTrehJUIVoyEzTcCGqNYoDqwsLfEPYpSoIcPtPYfhbwbcgQdOgfLdPCDqYOSlgMHfPjDeAKcMiOXhlosUKTjXYNdVvKVxUbhbcuvCgDfjwxZpMmLtbVIXIMIcrVjmxTFBiJqYoGpGbVxgPTvSIlomHAhwGKvEmMrlwtNcEAimTgrhmoptafxyvVYGMUjmhbajPqByJQkiDJpGBFMFBSEiSVHZNmzitZnmJTBnMBeYAxpZqykpddDhGbcaUoXcPalcYP"
     
-    print(
-        f'Solve Function: {timeit.timeit(lambda: solve(a, b), number=1000000)}')
-    print(
-        f'Solve Final Function: {timeit.timeit(lambda: solveTwo(a, b), number=1000000)}')
-    print(
-        f'Solve Final Function: {timeit.timeit(lambda: solveThree(a, b), number=1000000)}')
+    # print(
+    #     f'Solve Function: {timeit.timeit(lambda: solve(a, b), number=1000000)}')
+    # print(
+    #     f'Solve Final Function: {timeit.timeit(lambda: solveTwo(a, b), number=1000000)}')
+    # print(
+    #     f'Solve Final Function: {timeit.timeit(lambda: solveThree(a, b), number=1000000)}')
     
     # Time Results:
     # solve: 46.26528759999928

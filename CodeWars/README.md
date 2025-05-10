@@ -160,7 +160,7 @@ Write a function largest_sum which takes a string and returns the maximum of the
 
 <!-- ------------------------------------------------------------ -->
 
-## [Unique String Characters]()
+## [Unique String Characters](https://github.com/MagonBorn/CodeChallenges/blob/main/CodeWars/0007-UniqueCharacters.py)
 
 In this Kata, you will be given two strings a and b and your task will be to return the characters that are not common in the two strings.
 
