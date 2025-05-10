@@ -4,7 +4,8 @@
 [FlickSwitch](#flick-switch)\
 [Vanaishing Values](#vanishing-values)\
 [Planet Mnemonics](#planet-mnemonics)\
-[What Comes After](#what-comes-after)
+[What Comes After](#what-comes-after)\
+[Mary's Puzzle Book](#marys-puzzle-book)
 
 ## [XCOM-409](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0049-XCOM-409.py)
 
@@ -137,5 +138,23 @@ If there is a number, punctuation or underscore following the letter, it should 
     "r8 your friend"                # => "i"
 
 Return an empty string if there are no instances of letter in the given string.
+
+<!-- ------------------------------------------------------------ -->
+
+## [Mary's Puzzle Book]()
+
+### Zero Terminated Sum
+
+Mary has another puzzle book, and it's up to you to help her out! This book is filled with zero-terminated substrings, and you have to find the substring with the largest sum of its digits. For example, one puzzle looks like this:
+
+    "72102450111111090"
+
+Here, there are 4 different substrings: 721, 245, 111111, and 9. The sums of their digits are 10, 11, 6, and 9 respectively. Therefore, the substring with the largest sum of its digits is 245, and its sum is 11.
+
+Write a function largest_sum which takes a string and returns the maximum of the sums of the substrings. In the example above, your function should return 11.
+
+**Notes:**
+- A substring can have length 0. For example, 123004560 has three substrings, and the middle one has length 0.
+- All inputs will be valid strings of digits, and the last digit will always be 0.
 
 <!-- ------------------------------------------------------------ -->
