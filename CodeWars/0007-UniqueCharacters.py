@@ -33,7 +33,7 @@ def solveThree(a, b):
 class Test(unittest.TestCase):
     def testEquals(self):
         for data in testData:
-            self.assertEqual(solveTwo(data[0], data[1]), data[2])
+            self.assertEqual(solveThree(data[0], data[1]), data[2])
 
 #  ---------- Testing Data ----------
 testData = [
