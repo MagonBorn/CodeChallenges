@@ -7,7 +7,8 @@
 [What Comes After](#what-comes-after)\
 [Mary's Puzzle Book](#marys-puzzle-book)\
 [Unique String Characters](#unique-string-characters)\
-[Search For Letters](#search-for-letters)
+[Search For Letters](#search-for-letters)\
+[Reverse String](#reverse-string)
 
 ## [XCOM-409](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0049-XCOM-409.py)
 
@@ -199,3 +200,26 @@ So if an 'a' or an 'A' appears anywhere in the input string (any number of times
     "&%#*"  =>  "00000000000000000000000000"
 
 <!-- ------------------------------------------------------------ -->
+
+## [Reverse String]()
+
+### Task
+
+Given a string str, reverse it and omit all non-alphabetic characters.
+
+### Example
+
+For str = "krishan", the output should be "nahsirk".
+
+For str = "ultr53o?n", the output should be "nortlu".
+
+### Input/Output
+
+- [input] string str
+
+A string consists of lowercase latin letters, digits and symbols.
+
+- [output] a string
+
+<!-- ------------------------------------------------------------ -->
+
