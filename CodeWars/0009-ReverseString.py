@@ -1,6 +1,5 @@
 import timeit
 import unittest
-import string
 
 # Loop through the string from the end using list comprehension
 # Check if each letter is alpha
@@ -22,11 +21,32 @@ def reverse_letter_three(string):
 def reverse_letter_four(string):
     return ''.join(c for c in string[::-1] if c.isalpha())
 
+# ---------- Final Solution ----------
+def reverse_letter_five(s):
+    tab = str.maketrans("", "", r"""!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~0123456789""")
+    return s.translate(tab)[::-1]
+
 # ---------- Tests ----------
 class Test(unittest.TestCase):
-    def testEquals(self):
+    def testEqualsReverseLetter(self):
+        for data in testData:
+            self.assertEqual(reverse_letter(data[0]), data[1])
+
+    def testEqualsReverseLetterTwo(self):
+        for data in testData:
+            self.assertEqual(reverse_letter_two(data[0]), data[1])
+
+    def testEqualsReverseLetterThree(self):
         for data in testData:
             self.assertEqual(reverse_letter_three(data[0]), data[1])
+
+    def testEqualsReverseLetterFour(self):
+        for data in testData:
+            self.assertEqual(reverse_letter_four(data[0]), data[1])
+
+    def testEqualsReverseLetterFive(self):
+        for data in testData:
+            self.assertEqual(reverse_letter_five(data[0]), data[1])
 
 
 #  ---------- Testing Data ----------
@@ -51,15 +71,18 @@ if __name__ == '__main__':
     #     f'Reverse Letter Three Function: {timeit.timeit(lambda: reverse_letter_three(a), number=1000000)}')
     # print(
     #     f'Reverse Letter Four Function: {timeit.timeit(lambda: reverse_letter_four(a), number=1000000)}')
+    # print(
+    #     f'Reverse Letter Five Function: {timeit.timeit(lambda: reverse_letter_five(a), number=1000000)}')
     
-    # reverse_letter: 42.668504700000085
-    # reverse_letter_two: 23.631478100000095
-    # reverse_letter_three: 19.41206710000006
-    # reverse_letter_four: 36.83084409999992
+# Reverse Letter: 50.69786440000007
+# Reverse Letter Two: 27.547644799999944
+# Reverse Letter Three: 20.118738899999926
+# Reverse Letter Four: 42.117678799999794
+# Reverse Letter Five: 7.909158699999807
 
     # ---------- Results ----------
     for data in testData:
-        result = reverse_letter_three(data[0])
+        result = reverse_letter_five(data[0])
         print(result)
 
     # ---------- Run Tests ----------

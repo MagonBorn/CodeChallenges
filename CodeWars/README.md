@@ -8,7 +8,8 @@
 [Mary's Puzzle Book](#marys-puzzle-book)\
 [Unique String Characters](#unique-string-characters)\
 [Search For Letters](#search-for-letters)\
-[Reverse String](#reverse-string)
+[Reverse String](#reverse-string)\
+[Cyrillic Letters](#cyrillic-letters)
 
 ## [XCOM-409](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0049-XCOM-409.py)
 
@@ -223,3 +224,30 @@ A string consists of lowercase latin letters, digits and symbols.
 
 <!-- ------------------------------------------------------------ -->
 
+## [Cyrillic Letters]()
+
+Cyrillic letters, used in languages like Russian and Ukrainian, have different unicode values than Latin letters. 2 of those cyrillic letters include а and у which, if you copy these 2, are not the same as the latin a and y
+
+### Task
+
+Your task is to write a function that returns whether a given string (or char) is a Cyrillic letter in the Cyrillic Unicode Block.
+
+The string (or char) will always be a single letter.
+
+### Hint
+
+Here is a link to [Wikipidia's list of the Cyrillic Unicode block](https://en.wikipedia.org/wiki/Cyrillic_(Unicode_block)) for reference
+
+### Examples
+
+### Example 1
+
+    Input: "D"
+    Output: false (or False in Python or your language's equivalent)
+
+### Example 2
+
+    Input: "Я"
+    Output: true (or True in Python or your language's equivalent)
+
+<!-- ------------------------------------------------------------ -->
