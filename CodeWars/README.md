@@ -224,7 +224,7 @@ A string consists of lowercase latin letters, digits and symbols.
 
 <!-- ------------------------------------------------------------ -->
 
-## [Cyrillic Letters]()
+## [Cyrillic Letters](https://github.com/MagonBorn/CodeChallenges/blob/main/CodeWars/0010-CyrillicLetters.py)
 
 Cyrillic letters, used in languages like Russian and Ukrainian, have different unicode values than Latin letters. 2 of those cyrillic letters include а and у which, if you copy these 2, are not the same as the latin a and y
 
