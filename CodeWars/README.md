@@ -10,7 +10,8 @@
 [Search For Letters](#search-for-letters)\
 [Reverse String](#reverse-string)\
 [Cyrillic Letters](#cyrillic-letters)\
-[Shift Left](#shift-left)
+[Shift Left](#shift-left)\
+[Chemical Elements Regex](#chemical-elements-regex)
 
 ## [XCOM-409](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0049-XCOM-409.py)
 
@@ -268,5 +269,13 @@ Implement a function that calculates the minimum number of moves that should be 
 
 - Both strings consist of lowercase latin letters.
 - If the string is already empty, you cannot perform any more delete operations.
+
+<!-- ------------------------------------------------------------ -->
+
+## [Chemical Elements Regex]()
+
+Create a regex to match the symbols of all 118 chemical elements.
+
+Your regex pattern can be maximum 210 characters long.
 
 <!-- ------------------------------------------------------------ -->
