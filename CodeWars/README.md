@@ -9,7 +9,8 @@
 [Unique String Characters](#unique-string-characters)\
 [Search For Letters](#search-for-letters)\
 [Reverse String](#reverse-string)\
-[Cyrillic Letters](#cyrillic-letters)
+[Cyrillic Letters](#cyrillic-letters)\
+[Shift Left](#shift-left)
 
 ## [XCOM-409](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0049-XCOM-409.py)
 
@@ -249,5 +250,23 @@ Here is a link to [Wikipidia's list of the Cyrillic Unicode block](https://en.wi
 
     Input: "Я"
     Output: true (or True in Python or your language's equivalent)
+
+<!-- ------------------------------------------------------------ -->
+
+## [Shift Left]()
+
+You are given two strings. In a single move, you can choose any of them, and delete the first (i.e. leftmost) character.
+
+### For Example:
+
+- By applying a move to the string "where", the result is the string "here".
+- By applying a move to the string "a", the result is an empty string "".
+
+Implement a function that calculates the minimum number of moves that should be performed to make the given strings equal.
+
+### Notes
+
+- Both strings consist of lowercase latin letters.
+- If the string is already empty, you cannot perform any more delete operations.
 
 <!-- ------------------------------------------------------------ -->
