@@ -272,7 +272,7 @@ Implement a function that calculates the minimum number of moves that should be 
 
 <!-- ------------------------------------------------------------ -->
 
-## [Chemical Elements Regex]()
+## [Chemical Elements Regex](https://github.com/MagonBorn/CodeChallenges/blob/main/CodeWars/0012-ChemicalElementsRegEx.py)
 
 Create a regex to match the symbols of all 118 chemical elements.
 
