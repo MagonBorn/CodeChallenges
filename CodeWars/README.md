@@ -253,7 +253,7 @@ Here is a link to [Wikipidia's list of the Cyrillic Unicode block](https://en.wi
 
 <!-- ------------------------------------------------------------ -->
 
-## [Shift Left]()
+## [Shift Left](https://github.com/MagonBorn/CodeChallenges/blob/main/CodeWars/0011-ShiftLeft.py)
 
 You are given two strings. In a single move, you can choose any of them, and delete the first (i.e. leftmost) character.
 
