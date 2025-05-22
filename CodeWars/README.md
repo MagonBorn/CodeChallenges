@@ -281,7 +281,7 @@ Your regex pattern can be maximum 210 characters long.
 
 <!-- ------------------------------------------------------------ -->
 
-## [Arrays of the Right Depth]()
+## [Arrays of the Right Depth](https://github.com/MagonBorn/CodeChallenges/blob/main/CodeWars/0013-ArrayDepths.py)
 
 ### Arrays of the Right Depth
 
