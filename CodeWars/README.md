@@ -13,7 +13,8 @@
 [Shift Left](#shift-left)\
 [Chemical Elements Regex](#chemical-elements-regex)\
 [Arrays of the Right Depth](#arrays-of-the-right-depth)\
-[Horse Stamina](#horse-stamina)
+[Horse Stamina](#horse-stamina)\
+[Chess 960 Positions](#chess-960-positions)
 
 ## [XCOM-409](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0049-XCOM-409.py)
 
@@ -409,5 +410,47 @@ Return the index of the first-level sub-array that contains the hidden number.
 [ [1] ] -> index is 0
 
 [ [], [8], [] , [] ] -> index is 1
+
+<!-- ------------------------------------------------------------ -->
+
+## [Chess 960 Positions]()
+
+### Background:
+
+Freestyle chess, also known as Chess960, is a variant of chess where the starting positions of the pieces are randomized. Magnus Carlsen recently (April 2025) won €60,000 with a 9/9 performance in a freestyle chess tournament.
+
+As in standard chess, in the starting position the 2nd and 7th rank contain pawns and the remaining white/black pieces are on the 1st/8th rank. What changes is that the pieces on the first rank can be placed anywhere, as long as the two bishops are on different colored squares and the king is placed between the two rooks. The configuration of the 8th rank matches the 1st rank, so that white and black start in the same position.
+
+There are a total of 960 possible starting positions, hence the name. If these positions are sorted lexicographically, we can associate each integer from 1 to 960 with a specific Chess960 starting position.
+
+### Task:
+
+Given a positive integer ibetween 1 and 960, return a string representing the board in the i'thChess960 starting position. The pieces are denoted using queen -> Q, rook -> R, king -> K, knight -> N, bishop -> B and pawn -> P, with lowercase letters representing black and uppercase white. '.' is used for empty squares.
+
+### Examples:
+
+The following examples show how the strings should display when printed.
+
+1 => ## lexicographically first
+
+b b n n q r k r\
+p p p p p p p p\
+. . . . . . . .\
+. . . . . . . .\
+. . . . . . . .\
+. . . . . . . .\
+P P P P P P P P\
+B B N N Q R K R\
+
+960 => ## lexicographically last
+
+r q n n k r b b\
+p p p p p p p p\
+. . . . . . . .\
+. . . . . . . .\
+. . . . . . . .\
+. . . . . . . .\
+P P P P P P P P\
+R Q N N K R B B
 
 <!-- ------------------------------------------------------------ -->
