@@ -347,7 +347,7 @@ There are two arrays with depth 2, but only 1 is allowed.
 
 <!-- ------------------------------------------------------------ -->
 
-## [Horse Stamina]()
+## [Horse Stamina](https://github.com/MagonBorn/CodeChallenges/blob/main/CodeWars/0014-HorseStamina.py)
 
 ### Will My Horse Make It to the End?
 
@@ -384,5 +384,30 @@ Return True if the horse completes the course with stamina ≥ 0, otherwise retu
 [1, 1], 5 -> True
 
 [0, 1, 0, 0, 0, 0, 1], 3 -> False
+
+<!-- ------------------------------------------------------------ -->
+
+## [NaughtyNumber]()
+
+There is a naughty number hidden somewhere in the list. Find the index of it, if you are strong enough, of course!
+
+### Input:
+
+- You will receive an array of arrays (a list of lists).
+- Each sub-array can only contain either another array or a single number.
+- There will always be at least one sub-array in the input.
+- There will be only one number hidden in the sub-arrays
+
+### Output:
+
+Return the index of the first-level sub-array that contains the hidden number.
+
+### Examples:
+
+[ [[[]]] , [[]], [], [], [[2]] ] -> index is 4
+
+[ [1] ] -> index is 0
+
+[ [], [8], [] , [] ] -> index is 1
 
 <!-- ------------------------------------------------------------ -->
