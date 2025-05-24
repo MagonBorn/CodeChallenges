@@ -413,7 +413,7 @@ Return the index of the first-level sub-array that contains the hidden number.
 
 <!-- ------------------------------------------------------------ -->
 
-## [Chess 960 Positions]()
+## [Chess 960 Positions](https://github.com/MagonBorn/CodeChallenges/blob/main/CodeWars/0016-Chess960.py)
 
 ### Background:
 
