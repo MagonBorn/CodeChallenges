@@ -515,13 +515,13 @@ You can find if a Road leads to Michael by using its scent. Michael is followed 
 
 <!-- ------------------------------------------------------------ -->
 
-## [Unicode Steganography]()
+## [Unicode Steganography](https://github.com/MagonBorn/CodeChallenges/blob/main/CodeWars/0018-UnicodeSteganography.py)
 
-# Unicode Steganography
+### Unicode Steganography
 
 Find the secret messages hidden within seemingly normal text, and learn to encode your own.
 
-## Instructions
+### Instructions
 
 You need to implement two functions:  
 - `decode`: Retrieves the hidden message from the encoded text.
