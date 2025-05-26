@@ -15,7 +15,8 @@
 [Arrays of the Right Depth](#arrays-of-the-right-depth)\
 [Horse Stamina](#horse-stamina)\
 [Chess 960 Positions](#chess-960-positions)\
-[Michael Roads](#michael-roads)
+[Michael Roads](#michael-roads)\
+[Unicode Steganography](#unicode-steganography)
 
 ## [XCOM-409](https://github.com/MagonBorn/CodeChallenges/blob/main/PythonChallenges/0049-XCOM-409.py)
 
@@ -511,5 +512,22 @@ You can find if a Road leads to Michael by using its scent. Michael is followed 
 - See a detailed example of the problem in the sample test cases.
 
 - Other Michael katas will soon follow this first one, forming a Michael Series.
+
+<!-- ------------------------------------------------------------ -->
+
+## [Unicode Steganography]()
+
+# Unicode Steganography
+
+Find the secret messages hidden within seemingly normal text, and learn to encode your own.
+
+## Instructions
+
+You need to implement two functions:  
+- `decode`: Retrieves the hidden message from the encoded text.
+- `encode`: Encodes a secret message *invisibly* into a given text.  
+
+
+Can you figure out how the encoding works?
 
 <!-- ------------------------------------------------------------ -->
