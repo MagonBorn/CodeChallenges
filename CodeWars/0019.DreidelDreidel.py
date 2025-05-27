@@ -32,6 +32,10 @@ def gambleAgain(rolls, my_coins, pot):
         my_coins, pot = actions[roll](my_coins, pot)
     return my_coins
 
+# ---------- Additional Solution ----------
+def gambleThrice(r, a, p): 
+    return a+p - [p := p-[p >> ord(r[0])-71, -1][r > 'R']for r in r][-1]
+
 #  ---------- Testing Data ----------
 testData = [
     [['Nun'], 10, 20, 10],
@@ -67,9 +71,13 @@ if __name__ == '__main__':
 
     # print(
     #     f'Gamble Again Function: {timeit.timeit(lambda: gambleAgain(a[0], a[1], a[2]), number=10000000)}')
+
+    # print(
+    #     f'Gamble Thrice Function: {timeit.timeit(lambda: gambleThrice(a[0], a[1], a[2]), number=10000000)}')
     
     # Gamble Function: 12.16119770000023
     # Gamble Again Function: 23.95148539999991
+    # Gamble Thrice Function: 29.295786700000463
 
     # ---------- Function Results ----------
     for data in testData:

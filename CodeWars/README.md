@@ -534,7 +534,7 @@ Can you figure out how the encoding works?
 
 <!-- ------------------------------------------------------------ -->
 
-## [Dreidel Dreidel]()
+## [Dreidel Dreidel](https://github.com/MagonBorn/CodeChallenges/blob/main/CodeWars/0019.DreidelDreidel.py)
 
 Let's play a fun gambling game. A dreidel has four sides; here are the descriptions for each of them:
 
