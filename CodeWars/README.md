@@ -524,10 +524,35 @@ Find the secret messages hidden within seemingly normal text, and learn to encod
 ### Instructions
 
 You need to implement two functions:  
+
 - `decode`: Retrieves the hidden message from the encoded text.
+
 - `encode`: Encodes a secret message *invisibly* into a given text.  
 
 
 Can you figure out how the encoding works?
+
+<!-- ------------------------------------------------------------ -->
+
+## [Dreidel Dreidel]()
+
+Let's play a fun gambling game. A dreidel has four sides; here are the descriptions for each of them:
+
+- Nun - nothing happens
+
+- Gimel - you take the pot!
+
+- Hei - you take half the pot (rounded down)
+
+- Shin - you put a piece into the pot
+
+So here's how we play. You, being a raging gambling addict, start with all of your hard earned coins - oy vei! The pot will also have some non-negative amount of coins when the game begins.
+
+Complete the function that given an array of dreidel rolls, the number of coins in your account, and the number of coins in the pot, returns the number of coins left in your account after the last roll.
+
+### Notes:
+
+- you can have a negative amount at the end of the game, just like real gambling :)
+- my_coins and pot will always be non-negative
 
 <!-- ------------------------------------------------------------ -->
